@@ -1,4 +1,13 @@
-site_name: Dinoapp Documentation Website
+site_name: Dinoapp Documentation 
 site_url: https://docs.dinoapp.io
 theme:
   name: material
+  language: en 
+extra:
+  alternate:
+    - name: Italiano 
+      link: /it
+      lang: it 
+    - name: English
+      link: / 
+      lang: en
