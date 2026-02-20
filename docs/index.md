@@ -13,7 +13,7 @@ Dino is a web-based platform for structured data collection, monitoring, and ana
 
 ### Collect Data
 
-Design form templates and use them to record information from the field. Forms can have multiple sections, support file and audio attachments, and follow workflow stages (statuses) as entries move through a process. Submissions can be filtered, exported, and visualised on a map.
+Design form schemas and use them to record information from the field. Forms can have multiple sections, support file and audio attachments, and follow workflow stages (statuses) as entries move through a process. Submissions can be filtered, exported, and visualised on a map.
 
 - [Filling In a Form](forms/filling-in-a-form.md)
 - [Viewing & Managing Submissions](forms/viewing-submissions.md)
@@ -57,4 +57,4 @@ If this is your first time using Dino, start here:
 
 ## Access and Permissions
 
-What you can see and do in Dino depends on the permission groups assigned to your account. Some areas — such as administration and form template management — are only visible to users with the appropriate role. If you cannot find a feature described in this documentation, contact your system administrator.
+What you can see and do in Dino depends on the permission groups assigned to your account. Some areas — such as administration and form schema management — are only visible to users with the appropriate role. If you cannot find a feature described in this documentation, contact your system administrator.

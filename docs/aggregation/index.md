@@ -5,15 +5,15 @@ description: How to use the Aggregation view in Dino to browse and manage form s
 
 # Aggregation
 
-The Aggregation page provides a unified view of form submissions across all form schemas. Instead of browsing one form template at a time, you can see entries from multiple schemas together, filtered and sorted in a single list.
+The Aggregation page provides a unified view of form submissions across all form schemas. Instead of browsing one form schema at a time, you can see entries from multiple schemas together, filtered and sorted in a single list.
 
 ---
 
 ## Browsing the List
 
-The list shows all submissions you have access to, regardless of which form template they were created with. The following columns are displayed by default:
+The list shows all submissions you have access to, regardless of which form schema they were created with. The following columns are displayed by default:
 
-- **Form Schema** — the name of the form template this submission belongs to.
+- **Form Schema** — the name of the form schema this submission belongs to.
 - **Status** — the current workflow status of the submission.
 - Additional metric columns (location, project, organisation, etc.) are shown when those metric types are active.
 
@@ -58,7 +58,7 @@ Click the **+ button** (floating circular button at the bottom-right of the page
 
 A dialog will open asking you to **choose the type of form** you want to fill in:
 
-1. Select a form schema from the list of available templates.
+1. Select a form schema from the list of available schemas.
 2. Click **Create Form** to open the form and begin filling it in.
 
 The list of available form schemas shown in the dialog is limited to the schemas your account has permission to create submissions for.

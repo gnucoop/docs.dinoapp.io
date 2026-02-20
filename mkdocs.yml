@@ -25,12 +25,12 @@ nav:
     - Viewing & Managing Submissions: forms/viewing-submissions.md
     - Exploring Data on a Map: forms/map-view.md
     - Chatting with Your Data (AI): forms/data-chat.md
-    - Managing Form Templates: forms/managing-templates.md
+    - Managing Form Schemas: forms/managing-templates.md
   - Reports:
     - Overview: reports/index.md
     - Creating a Report: reports/creating-a-report.md
     - Viewing & Managing Reports: reports/viewing-reports.md
-    - Managing Report Templates: reports/managing-templates.md
+    - Managing Report Schemas: reports/managing-templates.md
   - Aggregation: aggregation/index.md
   - Metrics:
     - Overview: metrics/index.md

@@ -5,7 +5,7 @@ description: How to browse, search, view, edit, export, and manage form submissi
 
 # Viewing & Managing Submissions
 
-The submissions list shows all entries recorded for a specific form template. From here you can browse, search, view details, edit, export, and manage individual entries.
+The submissions list shows all entries recorded for a specific form schema. From here you can browse, search, view details, edit, export, and manage individual entries.
 
 ---
 
