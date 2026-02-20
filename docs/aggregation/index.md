@@ -7,6 +7,8 @@ description: How to use the Aggregation view in Dino to browse and manage form s
 
 The Aggregation page provides a unified view of form submissions across all form schemas. Instead of browsing one form schema at a time, you can see entries from multiple schemas together, filtered and sorted in a single list.
 
+![Aggregation list overview](../imgs/aggregation/img1.jpg)
+
 ---
 
 ## Browsing the List
@@ -22,6 +24,8 @@ Click a row to select or expand it and see more details.
 ---
 
 ## Filtering the List
+
+![Filter bar expanded with all available filter fields](../imgs/aggregation/img2.jpg)
 
 A filter bar above the list lets you narrow down which entries are shown:
 
@@ -40,6 +44,8 @@ A filter bar above the list lets you narrow down which entries are shown:
 
 ## Row Actions
 
+![Row actions revealed on hover](../imgs/aggregation/img3.jpg)
+
 Each row has a set of action icons on the right. The actions available depend on your permissions for the relevant form schema:
 
 - **View** (eye icon) — open the entry in read-only mode.
@@ -53,6 +59,8 @@ Each row has a set of action icons on the right. The actions available depend on
 ---
 
 ## Adding a New Entry
+
+![Create Form dialog — choose the form schema to fill in](../imgs/aggregation/img4.jpg)
 
 Click the **+ button** (floating circular button at the bottom-right of the page) to create a new submission.
 
