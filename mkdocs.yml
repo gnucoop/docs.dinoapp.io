@@ -5,9 +5,10 @@ theme:
   language: en 
 extra:
   alternate:
-    - name: Italiano 
-      link: /it
-      lang: it 
     - name: English
-      link: / 
+      link: /docs.dinoapp.io/
       lang: en
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
