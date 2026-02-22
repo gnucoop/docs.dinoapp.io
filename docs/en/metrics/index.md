@@ -9,7 +9,7 @@ Metrics are the reference data categories used across Dino to classify, organize
 
 The Metrics area is where you manage the lists of available values for each category. It serves as the central hub for all your reference data.
 
-![Metrics](../../imgs/metrics/index.png)
+![Metrics](../imgs/metrics/index.png)
 
 ---
 

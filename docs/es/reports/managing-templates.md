@@ -7,7 +7,7 @@ description: Cómo crear y editar esquemas de informes en Dino, incluyendo campo
 
 Los esquemas de informes definen la estructura y el diseño de los informes generados. Los administradores y los usuarios con los permisos adecuados pueden crear nuevos esquemas y editar los existentes.
 
-![Gestión de esquemas de informes](../../imgs/reports/managing-templates.png)
+![Gestión de esquemas de informes](../imgs/reports/managing-templates.png)
 
 !!! note "Permiso requerido"
     La gestión de esquemas de informes requiere permisos específicos. Si no puede ver las opciones de crear o editar, contacte a su administrador.

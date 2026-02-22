@@ -7,7 +7,7 @@ description: An overview of the Data Collection area in Dino, where you can acce
 
 The Data Collection area is the central hub for all form-based data entry in Dino. From here you can access every form schema your team works with, submit new entries, review existing submissions, and explore collected data on a map or through AI-assisted analysis.
 
-![Data Collection](../../imgs/forms/index.png)
+![Data Collection](../imgs/forms/index.png)
 
 When you open the Data Collection area, you will see a list of all available form schemas. Each item in the list shows the form's name and icon.
 

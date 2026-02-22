@@ -7,7 +7,7 @@ description: Come utilizzare la funzionalità Chat Dati AI per porre domande in 
 
 La pagina Chat Dati ti permette di porre domande in linguaggio semplice sulle risposte raccolte per un modulo. L'assistente AI analizza i dati e restituisce risposte in formato testo, tabelle o grafici.
 
-![Chiacchierare con i Dati (AI)](../../imgs/forms/data-chat.png)
+![Chiacchierare con i Dati (AI)](../imgs/forms/data-chat.png)
 
 !!! note "Funzionalità opzionale"
     Questa funzionalità richiede una chiave API DataChat e potrebbe non essere disponibile nella tua installazione. Se non vedi questa opzione, contatta il tuo amministratore.

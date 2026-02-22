@@ -7,7 +7,7 @@ description: Come utilizzare la vista Aggregazione in Dino per sfogliare e gesti
 
 La pagina Aggregazione fornisce una vista unificata di tutte le compilazioni dei moduli all'interno della tua organizzazione. Invece di visualizzare le compilazioni per uno schema di modulo alla volta, puoi vedere le voci provenienti da più schemi insieme in un unico elenco filtrato.
 
-![Aggregazione](../../imgs/aggregation/index.png)
+![Aggregazione](../imgs/aggregation/index.png)
 
 ## Sfogliare l'Elenco
 

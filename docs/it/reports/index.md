@@ -7,7 +7,7 @@ description: Panoramica dell'area Report in Dino — come trovare gli schemi di 
 
 L'area Report è il centro da cui accedere a tutti gli schemi di report disponibili. Uno schema di report definisce la struttura e il contenuto di un report che può essere generato dai dati raccolti. Da qui, puoi sfogliare gli schemi e accedere ai report già creati.
 
-![Report](../../imgs/reports/index.png)
+![Report](../imgs/reports/index.png)
 
 ---
 

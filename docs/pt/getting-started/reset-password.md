@@ -7,7 +7,7 @@ description: Como definir uma nova senha após solicitar um link de redefiniçã
 
 A página Redefinir Senha permite que você escolha uma nova senha após solicitar um link de redefinição. Você chega aqui clicando no link enviado para o seu endereço de e-mail — o mesmo link que você solicitou na opção **"Esqueceu sua senha?"** na página de Login.
 
-![Redefinir a Sua Senha](../../imgs/getting-started/reset-password.png)
+![Redefinir a Sua Senha](../imgs/getting-started/reset-password.png)
 
 !!! note
     Se você ainda não solicitou um link de redefinição, vá primeiro para a [página de Login](login.md) e clique em **"Esqueceu sua senha?"**.

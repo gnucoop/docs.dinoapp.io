@@ -7,7 +7,7 @@ description: Comment utiliser la vue carte pour visualiser et filtrer géographi
 
 La Vue Carte affiche toutes les soumissions d'un formulaire sur une carte interactive. Les soumissions sont affichées sous forme de marqueurs, qui sont regroupés en clusters lorsque de nombreux points sont proches les uns des autres. Vous pouvez utiliser les filtres à gauche pour affiner les données affichées.
 
-![Explorer les données sur une carte](../../imgs/forms/map-view.png)
+![Explorer les données sur une carte](../imgs/forms/map-view.png)
 
 ## Utiliser la carte
 

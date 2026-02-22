@@ -7,7 +7,7 @@ description: Como usar a visualização de mapa para visualizar e filtrar envios
 
 A Visualização de Mapa mostra todos os envios de um formulário em um mapa interativo. Os envios são exibidos como marcadores, que são agrupados em clusters quando muitos pontos estão próximos. Você pode usar os filtros à esquerda para restringir os dados exibidos.
 
-![Explorando Dados em um Mapa](../../imgs/forms/map-view.png)
+![Explorando Dados em um Mapa](../imgs/forms/map-view.png)
 
 ## Usando o Mapa
 

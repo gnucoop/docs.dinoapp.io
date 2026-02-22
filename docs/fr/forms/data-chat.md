@@ -7,7 +7,7 @@ description: Comment utiliser la fonctionnalité de discussion IA pour poser des
 
 La page de discussion de données vous permet de poser des questions en langage simple sur les soumissions collectées pour un formulaire. L'assistant IA analyse les données et renvoie des réponses sous forme de texte, de tableaux ou de graphiques.
 
-![Discuter avec vos données (IA)](../../imgs/forms/data-chat.png)
+![Discuter avec vos données (IA)](../imgs/forms/data-chat.png)
 
 !!! note "Fonctionnalité optionnelle"
     Cette fonctionnalité nécessite une clé API DataChat et peut ne pas être disponible dans votre installation. Si vous ne voyez pas cette option, contactez votre administrateur.

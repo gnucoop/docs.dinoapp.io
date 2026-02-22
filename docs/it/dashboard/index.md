@@ -7,7 +7,7 @@ description: Panoramica della Dashboard di Dino — la schermata principale visu
 
 La Dashboard è la prima schermata che vedi dopo aver effettuato l'accesso. Funge da hub centrale per navigare tra le funzionalità di Dino. A seconda della configurazione del sistema, apparirà in uno dei due layout: una **Dashboard Menu** o una **Dashboard Report**.
 
-![Dashboard](../../imgs/dashboard/index.png)
+![Dashboard](../imgs/dashboard/index.png)
 
 ---
 

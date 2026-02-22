@@ -7,7 +7,7 @@ description: Como navegar, criar, editar, visualizar, importar e excluir entrada
 
 No Dino, você pode gerenciar diferentes tipos de dados estruturados, chamados de métricas. Isso inclui Áreas Temáticas, Casos, Localizações, Projetos e Organizações. Você acessa cada tipo pela navegação principal. Cada tipo de métrica tem uma página de gerenciamento dedicada com um layout consistente para visualizar e gerenciar suas entradas.
 
-![Gerenciando Métricas](../../imgs/metrics/managing-metrics.png)
+![Gerenciando Métricas](../imgs/metrics/managing-metrics.png)
 
 !!! note "Permissão necessária"
     Gerenciar valores de métricas requer permissões específicas. Se você não consegue ver as opções de criar, editar ou excluir, entre em contato com seu administrador.

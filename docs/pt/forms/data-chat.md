@@ -7,7 +7,7 @@ description: Como usar o recurso de Chat de Dados com IA para fazer perguntas em
 
 A página de Chat de Dados permite que você faça perguntas em linguagem simples sobre os envios coletados para um formulário. O assistente de IA analisa os dados e retorna respostas em texto, tabelas ou gráficos.
 
-![Conversando com seus Dados (IA)](../../imgs/forms/data-chat.png)
+![Conversando com seus Dados (IA)](../imgs/forms/data-chat.png)
 
 !!! note "Recurso opcional"
     Este recurso requer uma chave de API do DataChat e pode não estar disponível na sua instalação. Se você não consegue ver esta opção, entre em contato com o administrador.

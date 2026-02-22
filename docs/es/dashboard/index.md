@@ -7,7 +7,7 @@ description: Una visión general del Panel de control de Dino — la pantalla pr
 
 El Panel de control es la primera pantalla que ves después de iniciar sesión. Sirve como tu centro de operaciones para navegar por las funciones de Dino. Dependiendo de la configuración de tu sistema, aparecerá en uno de dos diseños: un **Panel de control de menú** o un **Panel de control de informes**.
 
-![Panel de control](../../imgs/dashboard/index.png)
+![Panel de control](../imgs/dashboard/index.png)
 
 ---
 

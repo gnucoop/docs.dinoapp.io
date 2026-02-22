@@ -7,7 +7,7 @@ description: Come visualizzare, cercare e aprire le notifiche in-app in Dino.
 
 La pagina Notifiche mostra tutti i messaggi inviati dal sistema o dal tuo amministratore. Da qui puoi sfogliare, cercare e aprire singole notifiche, incluse quelle che collegano direttamente a un'area rilevante dell'applicazione.
 
-![Notifiche](../../imgs/notifications/index.png)
+![Notifiche](../imgs/notifications/index.png)
 
 ---
 

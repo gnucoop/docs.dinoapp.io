@@ -7,7 +7,7 @@ description: Comment définir un nouveau mot de passe après avoir demandé un l
 
 La page de réinitialisation du mot de passe vous permet de choisir un nouveau mot de passe après avoir demandé un lien de réinitialisation. Vous arrivez ici en cliquant sur le lien envoyé à votre adresse e-mail — le même lien que vous avez demandé via l'option **"Mot de passe oublié ?"** sur la page de connexion.
 
-![Réinitialiser votre mot de passe](../../imgs/getting-started/reset-password.png)
+![Réinitialiser votre mot de passe](../imgs/getting-started/reset-password.png)
 
 !!! note
     Si vous n'avez pas encore demandé de lien de réinitialisation, rendez-vous d'abord sur la [page de connexion](login.md) et cliquez sur **"Mot de passe oublié ?"**.

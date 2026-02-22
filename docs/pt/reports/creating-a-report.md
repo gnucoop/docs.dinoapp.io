@@ -7,7 +7,7 @@ description: Como gerar um novo relatório a partir de um esquema de relatório 
 
 Para gerar um novo relatório, navegue até o hub de Relatórios, abra um esquema de relatório e clique no **botão +** (o botão circular flutuante no canto inferior direito da página).
 
-![Criando um Relatório](../../imgs/reports/creating-a-report.png)
+![Criando um Relatório](../imgs/reports/creating-a-report.png)
 
 !!! note "Permissão necessária"
     O botão de adicionar só fica visível se você tiver permissão para criar relatórios para este esquema.

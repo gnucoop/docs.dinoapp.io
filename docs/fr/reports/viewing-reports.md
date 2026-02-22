@@ -41,10 +41,10 @@ Utilisez la barre de filtres au-dessus de la liste pour affiner les rapports aff
 
 Chaque ligne de rapport possède des icônes d'action sur la droite. Les actions disponibles dépendent de vos autorisations utilisateur.
 
-*   **Voir** (![icône œil](../../imgs/reports/eye-icon.png)) : Ouvre le rapport en vue lecture seule.
-*   **Ajouter aux favoris** (![icône étoile](../../imgs/reports/star-outline-icon.png)) : Marque ce rapport comme favori pour un accès rapide.
-*   **Retirer des favoris** (![icône étoile](../../imgs/reports/star-filled-icon.png)) : Retire le rapport de votre liste de favoris.
-*   **Supprimer** (![icône poubelle](../../imgs/reports/delete-icon.png)) : Supprime définitivement le rapport. Vous serez invité à confirmer cette action.
+*   **Voir** (![icône œil](../imgs/reports/eye-icon.png)) : Ouvre le rapport en vue lecture seule.
+*   **Ajouter aux favoris** (![icône étoile](../imgs/reports/star-outline-icon.png)) : Marque ce rapport comme favori pour un accès rapide.
+*   **Retirer des favoris** (![icône étoile](../imgs/reports/star-filled-icon.png)) : Retire le rapport de votre liste de favoris.
+*   **Supprimer** (![icône poubelle](../imgs/reports/delete-icon.png)) : Supprime définitivement le rapport. Vous serez invité à confirmer cette action.
 
 !!! tip "Actions basées sur les permissions"
     Vous ne verrez peut-être pas toutes les actions. Les icônes affichées sont basées sur les autorisations accordées à votre rôle utilisateur.

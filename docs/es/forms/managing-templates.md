@@ -7,7 +7,7 @@ description: Cómo crear y editar esquemas de formulario en Dino, incluido el co
 
 Los esquemas de formulario definen la estructura y los campos que se utilizan al recopilar datos. Los administradores y usuarios con los permisos adecuados pueden crear nuevos esquemas, editar los existentes y configurar su comportamiento.
 
-![Gestión de esquemas de formulario](../../imgs/forms/managing-templates.png)
+![Gestión de esquemas de formulario](../imgs/forms/managing-templates.png)
 
 !!! warning "Permiso requerido"
     Gestionar esquemas de formulario requiere permisos específicos. Si no puede ver las opciones de crear o editar, contacte a su administrador.

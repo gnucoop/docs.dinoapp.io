@@ -41,10 +41,10 @@ Utiliza la barra de filtros sobre la lista para reducir los informes mostrados.
 
 Cada fila de informe tiene iconos de acción a la derecha. Las acciones disponibles para ti dependen de tus permisos de usuario.
 
-*   **Ver** (![icono de ojo](../../imgs/reports/eye-icon.png)): Abre el informe en una vista de solo lectura.
-*   **Añadir a favoritos** (![icono de estrella](../../imgs/reports/star-outline-icon.png)): Marca este informe como favorito para un acceso rápido.
-*   **Quitar de favoritos** (![icono de estrella](../../imgs/reports/star-filled-icon.png)): Elimina el informe de tu lista de favoritos.
-*   **Eliminar** (![icono de papelera](../../imgs/reports/delete-icon.png)): Elimina el informe permanentemente. Se te pedirá que confirmes esta acción.
+*   **Ver** (![icono de ojo](../imgs/reports/eye-icon.png)): Abre el informe en una vista de solo lectura.
+*   **Añadir a favoritos** (![icono de estrella](../imgs/reports/star-outline-icon.png)): Marca este informe como favorito para un acceso rápido.
+*   **Quitar de favoritos** (![icono de estrella](../imgs/reports/star-filled-icon.png)): Elimina el informe de tu lista de favoritos.
+*   **Eliminar** (![icono de papelera](../imgs/reports/delete-icon.png)): Elimina el informe permanentemente. Se te pedirá que confirmes esta acción.
 
 !!! tip "Acciones basadas en permisos"
     Es posible que no veas todas las acciones. Los iconos que se muestran se basan en los permisos otorgados a tu rol de usuario.

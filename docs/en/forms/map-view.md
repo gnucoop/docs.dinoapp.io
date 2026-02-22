@@ -7,7 +7,7 @@ description: How to use the map view to visualize and filter form submissions ge
 
 The Map View shows all submissions for a form on an interactive map. Submissions are displayed as markers, which are grouped into clusters when many points are close together. You can use the filters on the left to narrow down the data displayed.
 
-![Exploring Data on a Map](../../imgs/forms/map-view.png)
+![Exploring Data on a Map](../imgs/forms/map-view.png)
 
 ## Using the Map
 

@@ -41,10 +41,10 @@ Utilize a barra de filtros acima da lista para restringir os relatórios apresen
 
 Cada linha de relatório tem ícones de ação à direita. As ações disponíveis para si dependem das suas permissões de utilizador.
 
-*   **Visualizar** (![ícone de olho](../../imgs/reports/eye-icon.png)): Abre o relatório numa vista só de leitura.
-*   **Adicionar aos favoritos** (![ícone de estrela](../../imgs/reports/star-outline-icon.png)): Marca este relatório como favorito para acesso rápido.
-*   **Remover dos favoritos** (![ícone de estrela](../../imgs/reports/star-filled-icon.png)): Remove o relatório da sua lista de favoritos.
-*   **Eliminar** (![ícone de lixo](../../imgs/reports/delete-icon.png)): Elimina permanentemente o relatório. Será solicitada a confirmação desta ação.
+*   **Visualizar** (![ícone de olho](../imgs/reports/eye-icon.png)): Abre o relatório numa vista só de leitura.
+*   **Adicionar aos favoritos** (![ícone de estrela](../imgs/reports/star-outline-icon.png)): Marca este relatório como favorito para acesso rápido.
+*   **Remover dos favoritos** (![ícone de estrela](../imgs/reports/star-filled-icon.png)): Remove o relatório da sua lista de favoritos.
+*   **Eliminar** (![ícone de lixo](../imgs/reports/delete-icon.png)): Elimina permanentemente o relatório. Será solicitada a confirmação desta ação.
 
 !!! tip "Ações baseadas em permissões"
     Pode não ver todas as ações. Os ícones apresentados baseiam-se nas permissões concedidas ao seu papel de utilizador.

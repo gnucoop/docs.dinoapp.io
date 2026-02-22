@@ -7,7 +7,7 @@ description: Cómo generar un nuevo informe a partir de un esquema de informe en
 
 Para generar un nuevo informe, navega al centro de Informes, abre un esquema de informe y haz clic en el **botón +** (el botón circular flotante en la parte inferior derecha de la página).
 
-![Crear un informe](../../imgs/reports/creating-a-report.png)
+![Crear un informe](../imgs/reports/creating-a-report.png)
 
 !!! note "Permiso requerido"
     El botón de agregar solo es visible si tienes permiso para crear informes para este esquema.

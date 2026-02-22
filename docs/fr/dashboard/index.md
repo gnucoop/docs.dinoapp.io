@@ -7,7 +7,7 @@ description: Un aperçu du Tableau de bord Dino — l'écran d'accueil affiché 
 
 Le Tableau de bord est le premier écran que vous voyez après vous être connecté. Il sert de centre névralgique pour naviguer dans les fonctionnalités de Dino. Selon la configuration de votre système, il apparaîtra dans l'un des deux agencements suivants : un **Tableau de bord Menu** ou un **Tableau de bord Rapport**.
 
-![Tableau de bord](../../imgs/dashboard/index.png)
+![Tableau de bord](../imgs/dashboard/index.png)
 
 ---
 

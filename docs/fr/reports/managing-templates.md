@@ -7,7 +7,7 @@ description: Comment créer et modifier des schémas de rapport dans Dino, y com
 
 Les schémas de rapport définissent la structure et la mise en page des rapports générés. Les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent créer de nouveaux schémas et modifier les schémas existants.
 
-![Gestion des schémas de rapport](../../imgs/reports/managing-templates.png)
+![Gestion des schémas de rapport](../imgs/reports/managing-templates.png)
 
 !!! note "Autorisation requise"
     La gestion des schémas de rapport nécessite des autorisations spécifiques. Si vous ne voyez pas les options de création ou d'édition, contactez votre administrateur.

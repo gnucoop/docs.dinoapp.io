@@ -7,7 +7,7 @@ description: Finalisez votre achat de services Dino et gérez votre abonnement.
 
 La page de paiement dans Dino est l'endroit où vous finalisez votre règlement pour des services, comme la mise à niveau de votre forfait d'abonnement ou l'achat de fonctionnalités supplémentaires. Cette page utilise un système de paiement intégré et sécurisé pour traiter votre transaction.
 
-![Paiement](../../imgs/checkout/index.png)
+![Paiement](../imgs/checkout/index.png)
 
 ## Ce que vous voyez
 

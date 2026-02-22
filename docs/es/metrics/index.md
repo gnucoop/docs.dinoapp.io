@@ -9,7 +9,7 @@ Las métricas son las categorías de datos de referencia utilizadas en Dino para
 
 El área de Métricas es donde se gestionan las listas de valores disponibles para cada categoría. Sirve como centro central para todos los datos de referencia.
 
-![Métricas](../../imgs/metrics/index.png)
+![Métricas](../imgs/metrics/index.png)
 
 ---
 

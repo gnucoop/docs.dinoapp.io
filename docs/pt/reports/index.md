@@ -7,7 +7,7 @@ description: Uma visão geral da área de Relatórios no Dino — como encontrar
 
 A área de Relatórios é o seu centro para acessar todos os esquemas de relatório disponíveis. Um esquema de relatório define a estrutura e o conteúdo de um relatório que pode ser gerado a partir dos seus dados coletados. A partir daqui, você pode navegar pelos esquemas e acessar os relatórios que já foram criados.
 
-![Relatórios](../../imgs/reports/index.png)
+![Relatórios](../imgs/reports/index.png)
 
 ---
 

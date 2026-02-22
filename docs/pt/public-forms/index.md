@@ -7,7 +7,7 @@ description: Como acessar, preencher e enviar um formulário público no Dino se
 
 Os formulários públicos permitem que qualquer pessoa com um link envie dados para o Dino sem precisar fazer login ou ter uma conta. Isso é comumente usado para pesquisas, inscrições ou coleta de feedback. Se você recebeu um link público para um formulário, pode usar esta página para preenchê-lo.
 
-![Formulários Públicos](../../imgs/public-forms/index.png)
+![Formulários Públicos](../imgs/public-forms/index.png)
 
 ---
 

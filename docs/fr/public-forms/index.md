@@ -7,7 +7,7 @@ description: Comment accéder, remplir et soumettre un formulaire public dans Di
 
 Les formulaires publics permettent à toute personne disposant d'un lien de soumettre des données à Dino sans avoir besoin de se connecter ou de posséder un compte. Ils sont couramment utilisés pour des enquêtes, des inscriptions ou la collecte de retours. Si vous avez reçu un lien public vers un formulaire, vous pouvez utiliser cette page pour le remplir.
 
-![Formulaires publics](../../imgs/public-forms/index.png)
+![Formulaires publics](../imgs/public-forms/index.png)
 
 ---
 

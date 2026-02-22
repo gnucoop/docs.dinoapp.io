@@ -7,7 +7,7 @@ description: Come creare e modificare gli schemi di report in Dino, inclusi camp
 
 Gli schemi di report definiscono la struttura e il layout dei report generati. Gli amministratori e gli utenti con le autorizzazioni appropriate possono creare nuovi schemi e modificare quelli esistenti.
 
-![Gestione degli schemi di report](../../imgs/reports/managing-templates.png)
+![Gestione degli schemi di report](../imgs/reports/managing-templates.png)
 
 !!! note "Autorizzazione richiesta"
     La gestione degli schemi di report richiede autorizzazioni specifiche. Se non riesci a vedere le opzioni di creazione o modifica, contatta il tuo amministratore.

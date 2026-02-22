@@ -7,7 +7,7 @@ description: Una visión general del área de Informes en Dino: cómo encontrar 
 
 El área de Informes es su centro para acceder a todos los esquemas de informes disponibles. Un esquema de informe define la estructura y el contenido de un informe que se puede generar a partir de sus datos recopilados. Desde aquí, puede explorar los esquemas y acceder a los informes que ya se han creado.
 
-![Informes](../../imgs/reports/index.png)
+![Informes](../imgs/reports/index.png)
 
 ---
 

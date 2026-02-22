@@ -7,7 +7,7 @@ description: Comment parcourir, créer, modifier, visualiser, importer et suppri
 
 Dans Dino, vous pouvez gérer différents types de données structurées, appelées métriques. Celles-ci incluent les Domaines Thématiques, les Cas, les Lieux, les Projets et les Organisations. Vous accédez à chaque type depuis la navigation principale. Chaque type de métrique dispose d'une page de gestion dédiée avec une mise en page cohérente pour visualiser et gérer ses entrées.
 
-![Gestion des métriques](../../imgs/metrics/managing-metrics.png)
+![Gestion des métriques](../imgs/metrics/managing-metrics.png)
 
 !!! note "Autorisation requise"
     La gestion des valeurs de métriques nécessite des autorisations spécifiques. Si vous ne voyez pas les options de création, modification ou suppression, contactez votre administrateur.

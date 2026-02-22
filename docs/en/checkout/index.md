@@ -7,7 +7,7 @@ description: Complete your purchase for Dino services and manage your subscripti
 
 The Checkout page in Dino is where you finalize your payment for services, such as upgrading your subscription plan or purchasing additional features. This page uses a secure, integrated payment system to process your transaction.
 
-![Checkout](../../imgs/checkout/index.png)
+![Checkout](../imgs/checkout/index.png)
 
 ## What You See
 

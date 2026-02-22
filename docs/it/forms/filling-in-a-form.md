@@ -7,7 +7,7 @@ description: Come creare una nuova compilazione di modulo, inclusa la selezione 
 
 Questa pagina spiega come compilare una nuova compilazione di modulo. Puoi iniziare una nuova compilazione selezionando un modulo dall'elenco e cliccando il pulsante **+**.
 
-![Compilare un Modulo](../../imgs/forms/filling-in-a-form.png)
+![Compilare un Modulo](../imgs/forms/filling-in-a-form.png)
 
 ---
 

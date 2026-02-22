@@ -7,7 +7,7 @@ description: Panoramica dell'area Raccolta Dati in Dino, dove puoi accedere e ge
 
 L'area Raccolta Dati è il punto centrale per tutte le attività di inserimento dati basate su moduli in Dino. Da qui puoi accedere a ogni schema di modulo utilizzato dal tuo team, inviare nuove voci, rivedere gli invii esistenti ed esplorare i dati raccolti su una mappa o tramite analisi assistita dall'IA.
 
-![Raccolta Dati](../../imgs/forms/index.png)
+![Raccolta Dati](../imgs/forms/index.png)
 
 Quando apri l'area Raccolta Dati, vedrai un elenco di tutti gli schemi di modulo disponibili. Ogni elemento nell'elenco mostra il nome e l'icona del modulo.
 

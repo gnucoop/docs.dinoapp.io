@@ -7,7 +7,7 @@ description: Comment créer et modifier des schémas de formulaire dans Dino, y 
 
 Les schémas de formulaire définissent la structure et les champs utilisés lors de la collecte de données. Les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent créer de nouveaux schémas, modifier les schémas existants et configurer leur comportement.
 
-![Gestion des schémas de formulaire](../../imgs/forms/managing-templates.png)
+![Gestion des schémas de formulaire](../imgs/forms/managing-templates.png)
 
 !!! warning "Autorisation requise"
     La gestion des schémas de formulaire nécessite des autorisations spécifiques. Si vous ne voyez pas les options de création ou de modification, contactez votre administrateur.

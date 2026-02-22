@@ -7,7 +7,7 @@ description: Aperçu de la zone Rapports dans Dino — comment trouver les sché
 
 La zone Rapports est votre centre d'accès à tous les schémas de rapport disponibles. Un schéma de rapport définit la structure et le contenu d'un rapport pouvant être généré à partir de vos données collectées. À partir d'ici, vous pouvez parcourir les schémas et accéder aux rapports qui ont déjà été créés.
 
-![Rapports](../../imgs/reports/index.png)
+![Rapports](../imgs/reports/index.png)
 
 ---
 

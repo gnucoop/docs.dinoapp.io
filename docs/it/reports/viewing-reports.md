@@ -41,10 +41,10 @@ Usa la barra dei filtri sopra l'elenco per restringere i report visualizzati.
 
 Ogni riga del report ha delle icone di azione sulla destra. Le azioni disponibili per te dipendono dai tuoi permessi utente.
 
-*   **Visualizza** (![icona occhio](../../imgs/reports/eye-icon.png)): Apre il report in una visualizzazione di sola lettura.
-*   **Aggiungi ai preferiti** (![icona stella](../../imgs/reports/star-outline-icon.png)): Contrassegna questo report come preferito per un accesso rapido.
-*   **Rimuovi dai preferiti** (![icona stella](../../imgs/reports/star-filled-icon.png)): Rimuove il report dalla tua lista dei preferiti.
-*   **Elimina** (![icona cestino](../../imgs/reports/delete-icon.png)): Elimina definitivamente il report. Ti verrà chiesto di confermare questa azione.
+*   **Visualizza** (![icona occhio](../imgs/reports/eye-icon.png)): Apre il report in una visualizzazione di sola lettura.
+*   **Aggiungi ai preferiti** (![icona stella](../imgs/reports/star-outline-icon.png)): Contrassegna questo report come preferito per un accesso rapido.
+*   **Rimuovi dai preferiti** (![icona stella](../imgs/reports/star-filled-icon.png)): Rimuove il report dalla tua lista dei preferiti.
+*   **Elimina** (![icona cestino](../imgs/reports/delete-icon.png)): Elimina definitivamente il report. Ti verrà chiesto di confermare questa azione.
 
 !!! tip "Azioni basate sui permessi"
     Potresti non vedere tutte le azioni. Le icone visualizzate si basano sui permessi concessi al tuo ruolo utente.

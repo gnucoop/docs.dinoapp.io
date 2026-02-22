@@ -7,7 +7,7 @@ description: How to use the AI Data Chat feature to ask natural language questio
 
 The Data Chat page lets you ask plain-language questions about the submissions collected for a form. The AI assistant analyses the data and returns answers in text, tables, or charts.
 
-![Chatting with Your Data (AI)](../../imgs/forms/data-chat.png)
+![Chatting with Your Data (AI)](../imgs/forms/data-chat.png)
 
 !!! note "Optional feature"
     This feature requires a DataChat API key and may not be available in your installation. If you cannot see this option, contact your administrator.

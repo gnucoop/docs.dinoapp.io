@@ -7,7 +7,7 @@ description: Uma visão geral da área de Coleta de Dados no Dino, onde você po
 
 A área de Coleta de Dados é o centro para todas as entradas de dados baseadas em formulários no Dino. A partir daqui, você pode acessar todos os esquemas de formulário com os quais sua equipe trabalha, enviar novas entradas, revisar envios existentes e explorar os dados coletados em um mapa ou por meio de análises assistidas por IA.
 
-![Coleta de Dados](../../imgs/forms/index.png)
+![Coleta de Dados](../imgs/forms/index.png)
 
 Quando você abre a área de Coleta de Dados, verá uma lista de todos os esquemas de formulário disponíveis. Cada item na lista mostra o nome e o ícone do formulário.
 

@@ -7,7 +7,7 @@ description: Cómo establecer una nueva contraseña después de solicitar un enl
 
 La página Restablecer contraseña le permite elegir una nueva contraseña después de solicitar un enlace de restablecimiento. Llega aquí haciendo clic en el enlace enviado a su dirección de correo electrónico — el mismo enlace que solicitó desde la opción **"¿Olvidó su contraseña?"** en la página de Inicio de sesión.
 
-![Restablecer su contraseña](../../imgs/getting-started/reset-password.png)
+![Restablecer su contraseña](../imgs/getting-started/reset-password.png)
 
 !!! note
     Si aún no ha solicitado un enlace de restablecimiento, vaya primero a la [página de Inicio de sesión](login.md) y haga clic en **"¿Olvidó su contraseña?"**.

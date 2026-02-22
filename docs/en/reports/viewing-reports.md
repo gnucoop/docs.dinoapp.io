@@ -41,10 +41,10 @@ Use the filter bar above the list to narrow down the reports shown.
 
 Each report row has action icons on the right. The actions available to you depend on your user permissions.
 
-*   **View** (![eye icon](../../imgs/reports/eye-icon.png)): Opens the report in a read-only view.
-*   **Add to favourites** (![star icon](../../imgs/reports/star-outline-icon.png)): Marks this report as a favourite for quick access.
-*   **Remove from favourites** (![star icon](../../imgs/reports/star-filled-icon.png)): Removes the report from your favourites list.
-*   **Delete** (![bin icon](../../imgs/reports/delete-icon.png)): Permanently deletes the report. You will be asked to confirm this action.
+*   **View** (![eye icon](../imgs/reports/eye-icon.png)): Opens the report in a read-only view.
+*   **Add to favourites** (![star icon](../imgs/reports/star-outline-icon.png)): Marks this report as a favourite for quick access.
+*   **Remove from favourites** (![star icon](../imgs/reports/star-filled-icon.png)): Removes the report from your favourites list.
+*   **Delete** (![bin icon](../imgs/reports/delete-icon.png)): Permanently deletes the report. You will be asked to confirm this action.
 
 !!! tip "Permission-based actions"
     You may not see all actions. The icons displayed are based on the permissions granted to your user role.

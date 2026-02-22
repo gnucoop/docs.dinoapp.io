@@ -7,7 +7,7 @@ description: Cómo usar la vista de Agregación en Dino para explorar y gestiona
 
 La página de Agregación proporciona una vista unificada de todos los envíos de formularios en su organización. En lugar de ver los envíos de un esquema de formulario a la vez, puede ver entradas de múltiples esquemas juntas en una sola lista filtrable.
 
-![Agregación](../../imgs/aggregation/index.png)
+![Agregación](../imgs/aggregation/index.png)
 
 ## Explorando la Lista
 

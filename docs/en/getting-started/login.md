@@ -7,7 +7,7 @@ description: How to sign in to Dino, reset your password, create an account, and
 
 The Login page is the starting point of your Dino experience. From here you can sign in to your account, create a new account, or recover access if you have forgotten your password. Depending on how your organisation has set up Dino, some of the options described below may not be visible in your installation.
 
-![Logging In](../../imgs/getting-started/login.png)
+![Logging In](../imgs/getting-started/login.png)
 
 ---
 

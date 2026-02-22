@@ -7,7 +7,7 @@ description: How to create and edit report schemas in Dino, including fields, re
 
 Report schemas define the structure and layout of generated reports. Administrators and users with the appropriate permissions can create new schemas and edit existing ones.
 
-![Managing Report Schemas](../../imgs/reports/managing-templates.png)
+![Managing Report Schemas](../imgs/reports/managing-templates.png)
 
 !!! note "Permission required"
     Managing report schemas requires specific permissions. If you cannot see the create or edit options, contact your administrator.

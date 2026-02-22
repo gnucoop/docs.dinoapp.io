@@ -7,7 +7,7 @@ description: Como criar um novo envio de formulário, incluindo seleção de mé
 
 Esta página explica como preencher um novo envio de formulário. Você pode iniciar um novo envio selecionando um formulário da lista e clicando no botão **+**.
 
-![Preencher um Formulário](../../imgs/forms/filling-in-a-form.png)
+![Preencher um Formulário](../imgs/forms/filling-in-a-form.png)
 
 ---
 

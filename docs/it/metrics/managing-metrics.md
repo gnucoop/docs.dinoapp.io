@@ -7,7 +7,7 @@ description: Come sfogliare, creare, modificare, visualizzare, importare ed elim
 
 In Dino, puoi gestire diversi tipi di dati strutturati, chiamati metriche. Questi includono Aree Tematiche, Casi, Località, Progetti e Organizzazioni. Puoi accedere a ciascun tipo dalla navigazione principale. Ogni tipo di metrica ha una pagina di gestione dedicata con un layout coerente per visualizzare e gestire le sue voci.
 
-![Gestione delle Metriche](../../imgs/metrics/managing-metrics.png)
+![Gestione delle Metriche](../imgs/metrics/managing-metrics.png)
 
 !!! note "Autorizzazione richiesta"
     La gestione dei valori delle metriche richiede autorizzazioni specifiche. Se non riesci a vedere le opzioni per creare, modificare o eliminare, contatta il tuo amministratore.

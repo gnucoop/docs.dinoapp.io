@@ -7,7 +7,7 @@ description: Come utilizzare la vista mappa per visualizzare e filtrare geografi
 
 La Vista Mappa mostra tutte le risposte per un modulo su una mappa interattiva. Le risposte vengono visualizzate come marcatori, che vengono raggruppati in cluster quando molti punti sono vicini tra loro. Puoi utilizzare i filtri a sinistra per restringere i dati visualizzati.
 
-![Esplorare i Dati su una Mappa](../../imgs/forms/map-view.png)
+![Esplorare i Dati su una Mappa](../imgs/forms/map-view.png)
 
 ## Utilizzare la Mappa
 

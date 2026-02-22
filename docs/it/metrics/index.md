@@ -9,7 +9,7 @@ Le metriche sono le categorie di dati di riferimento utilizzate in Dino per clas
 
 L'area Metriche è il punto in cui si gestiscono gli elenchi di valori disponibili per ciascuna categoria. Funge da hub centrale per tutti i dati di riferimento.
 
-![Metriche](../../imgs/metrics/index.png)
+![Metriche](../imgs/metrics/index.png)
 
 ---
 

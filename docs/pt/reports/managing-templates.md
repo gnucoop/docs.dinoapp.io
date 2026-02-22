@@ -7,7 +7,7 @@ description: Como criar e editar esquemas de relatórios no Dino, incluindo camp
 
 Os esquemas de relatório definem a estrutura e o layout dos relatórios gerados. Administradores e usuários com as permissões apropriadas podem criar novos esquemas e editar os existentes.
 
-![Gerenciando Esquemas de Relatórios](../../imgs/reports/managing-templates.png)
+![Gerenciando Esquemas de Relatórios](../imgs/reports/managing-templates.png)
 
 !!! note "Permissão necessária"
     O gerenciamento de esquemas de relatório requer permissões específicas. Se você não consegue ver as opções de criar ou editar, entre em contato com seu administrador.

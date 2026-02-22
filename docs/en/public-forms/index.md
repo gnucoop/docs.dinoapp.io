@@ -7,7 +7,7 @@ description: How to access, fill out, and submit a public form in Dino without n
 
 Public forms allow anyone with a link to submit data to Dino without needing to log in or have an account. This is commonly used for surveys, registrations, or feedback collection. If you have received a public link to a form, you can use this page to complete it.
 
-![Public Forms](../../imgs/public-forms/index.png)
+![Public Forms](../imgs/public-forms/index.png)
 
 ---
 

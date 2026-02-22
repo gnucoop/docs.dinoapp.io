@@ -7,7 +7,7 @@ description: Un aperçu de la zone de Collecte de données dans Dino, où vous p
 
 La zone de Collecte de données est le centre névralgique pour toute saisie de données basée sur des formulaires dans Dino. De là, vous pouvez accéder à chaque schéma de formulaire utilisé par votre équipe, soumettre de nouvelles entrées, examiner les soumissions existantes et explorer les données collectées sur une carte ou via une analyse assistée par IA.
 
-![Collecte de données](../../imgs/forms/index.png)
+![Collecte de données](../imgs/forms/index.png)
 
 Lorsque vous ouvrez la zone de Collecte de données, vous verrez une liste de tous les schémas de formulaires disponibles. Chaque élément de la liste affiche le nom et l'icône du formulaire.
 

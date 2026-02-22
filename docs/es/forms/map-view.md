@@ -7,7 +7,7 @@ description: Cómo usar la vista de mapa para visualizar y filtrar envíos de fo
 
 La Vista de Mapa muestra todos los envíos de un formulario en un mapa interactivo. Los envíos se muestran como marcadores, que se agrupan en clústeres cuando hay muchos puntos cercanos. Puedes usar los filtros de la izquierda para reducir los datos que se muestran.
 
-![Explorar datos en un mapa](../../imgs/forms/map-view.png)
+![Explorar datos en un mapa](../imgs/forms/map-view.png)
 
 ## Usar el mapa
 

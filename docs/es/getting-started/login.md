@@ -7,7 +7,7 @@ description: Cómo iniciar sesión en Dino, restablecer tu contraseña, crear un
 
 La página de inicio de sesión es el punto de partida de tu experiencia con Dino. Desde aquí puedes iniciar sesión en tu cuenta, crear una nueva cuenta o recuperar el acceso si has olvidado tu contraseña. Dependiendo de cómo tu organización haya configurado Dino, es posible que algunas de las opciones descritas a continuación no sean visibles en tu instalación.
 
-![Iniciar sesión](../../imgs/getting-started/login.png)
+![Iniciar sesión](../imgs/getting-started/login.png)
 
 ---
 

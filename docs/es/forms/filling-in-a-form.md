@@ -7,7 +7,7 @@ description: Cómo crear un nueva entrada de formulario, incluyendo la selecció
 
 Esta página explica cómo completar una nueva entrada de formulario. Puedes iniciar una nueva entrada seleccionando un formulario de la lista y haciendo clic en el botón **+**.
 
-![Completar un formulario](../../imgs/forms/filling-in-a-form.png)
+![Completar un formulario](../imgs/forms/filling-in-a-form.png)
 
 ---
 

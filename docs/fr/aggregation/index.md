@@ -7,7 +7,7 @@ description: Comment utiliser la vue d'agrégation dans Dino pour parcourir et g
 
 La page d'agrégation offre une vue unifiée de toutes les soumissions de formulaires au sein de votre organisation. Au lieu de consulter les soumissions pour un seul schéma de formulaire à la fois, vous pouvez voir les entrées de plusieurs schémas regroupées dans une seule liste, filtrable.
 
-![Agrégation](../../imgs/aggregation/index.png)
+![Agrégation](../imgs/aggregation/index.png)
 
 ## Parcourir la liste
 

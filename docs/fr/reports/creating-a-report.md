@@ -7,7 +7,7 @@ description: Comment générer un nouveau rapport à partir d'un schéma de rapp
 
 Pour générer un nouveau rapport, accédez au hub Rapports, ouvrez un schéma de rapport et cliquez sur le **bouton +** (le bouton circulaire flottant en bas à droite de la page).
 
-![Créer un rapport](../../imgs/reports/creating-a-report.png)
+![Créer un rapport](../imgs/reports/creating-a-report.png)
 
 !!! note "Autorisation requise"
     Le bouton d'ajout n'est visible que si vous avez l'autorisation de créer des rapports pour ce schéma.

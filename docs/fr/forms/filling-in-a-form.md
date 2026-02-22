@@ -7,7 +7,7 @@ description: Comment créer une nouvelle soumission de formulaire, y compris la 
 
 Cette page explique comment remplir une nouvelle soumission de formulaire. Vous pouvez démarrer une nouvelle soumission en sélectionnant un formulaire dans la liste et en cliquant sur le bouton **+**.
 
-![Remplir un formulaire](../../imgs/forms/filling-in-a-form.png)
+![Remplir un formulaire](../imgs/forms/filling-in-a-form.png)
 
 ---
 

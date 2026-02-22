@@ -7,7 +7,7 @@ description: Come creare e modificare gli schemi di modulo in Dino, inclusi il g
 
 Gli schemi di modulo definiscono la struttura e i campi utilizzati durante la raccolta dei dati. Gli amministratori e gli utenti con le autorizzazioni appropriate possono creare nuovi schemi, modificare quelli esistenti e configurare il loro comportamento.
 
-![Gestione degli schemi di modulo](../../imgs/forms/managing-templates.png)
+![Gestione degli schemi di modulo](../imgs/forms/managing-templates.png)
 
 !!! warning "Autorizzazione richiesta"
     La gestione degli schemi di modulo richiede autorizzazioni specifiche. Se non riesci a vedere le opzioni di creazione o modifica, contatta il tuo amministratore.

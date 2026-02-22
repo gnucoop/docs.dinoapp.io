@@ -7,7 +7,7 @@ description: Come impostare una nuova password dopo aver richiesto un link di re
 
 La pagina Reimposta Password ti permette di scegliere una nuova password dopo aver richiesto un link di reimpostazione. Arrivi qui cliccando sul link inviato al tuo indirizzo email — lo stesso link che hai richiesto dall'opzione **"Password dimenticata?"** nella pagina di accesso.
 
-![Reimpostare la Password](../../imgs/getting-started/reset-password.png)
+![Reimpostare la Password](../imgs/getting-started/reset-password.png)
 
 !!! note
     Se non hai ancora richiesto un link di reimpostazione, vai prima alla [pagina di accesso](login.md) e clicca **"Password dimenticata?"**.

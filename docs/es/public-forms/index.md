@@ -7,7 +7,7 @@ description: Cómo acceder, completar y enviar un formulario público en Dino si
 
 Los formularios públicos permiten que cualquier persona con un enlace envíe datos a Dino sin necesidad de iniciar sesión o tener una cuenta. Esto se usa comúnmente para encuestas, registros o recopilación de comentarios. Si has recibido un enlace público a un formulario, puedes usar esta página para completarlo.
 
-![Formularios Públicos](../../imgs/public-forms/index.png)
+![Formularios Públicos](../imgs/public-forms/index.png)
 
 ---
 

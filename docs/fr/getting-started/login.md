@@ -7,7 +7,7 @@ description: Comment se connecter à Dino, réinitialiser son mot de passe, cré
 
 La page de connexion est le point de départ de votre expérience Dino. À partir de là, vous pouvez vous connecter à votre compte, créer un nouveau compte ou récupérer l'accès si vous avez oublié votre mot de passe. Selon la configuration de Dino par votre organisation, certaines des options décrites ci-dessous peuvent ne pas être visibles dans votre installation.
 
-![Connexion](../../imgs/getting-started/login.png)
+![Connexion](../imgs/getting-started/login.png)
 
 ---
 

@@ -7,7 +7,7 @@ description: An overview of the Dino Dashboard — the home screen shown after l
 
 The Dashboard is the first screen you see after logging in. It serves as your central hub for navigating Dino's features. Depending on your system configuration, it will appear in one of two layouts: a **Menu Dashboard** or a **Report Dashboard**.
 
-![Dashboard](../../imgs/dashboard/index.png)
+![Dashboard](../imgs/dashboard/index.png)
 
 ---
 

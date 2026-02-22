@@ -7,7 +7,7 @@ description: Comment créer, modifier et gérer les comptes utilisateurs et les 
 
 La section Utilisateurs permet aux administrateurs de gérer qui peut accéder à Dino et ce qu'ils sont autorisés à faire. Elle est divisée en deux parties : **Utilisateurs**, pour les comptes individuels, et **Groupes**, pour les ensembles de permissions qui peuvent être attribués à plusieurs utilisateurs en une fois.
 
-![Gestion des utilisateurs et des groupes](../../imgs/administration/users.png)
+![Gestion des utilisateurs et des groupes](../imgs/administration/users.png)
 
 !!! warning "Accès administrateur uniquement"
     Cette zone n'est visible que par les utilisateurs ayant le rôle Administrateur. Si vous ne la voyez pas dans la navigation, contactez votre administrateur système.

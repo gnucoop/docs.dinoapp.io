@@ -7,7 +7,7 @@ description: Come accedere a Dino, reimpostare la password, creare un account e 
 
 La pagina di accesso è il punto di partenza della tua esperienza con Dino. Da qui puoi accedere al tuo account, crearne uno nuovo o recuperare l'accesso se hai dimenticato la password. A seconda di come la tua organizzazione ha configurato Dino, alcune delle opzioni descritte di seguito potrebbero non essere visibili nella tua installazione.
 
-![Accesso](../../imgs/getting-started/login.png)
+![Accesso](../imgs/getting-started/login.png)
 
 ---
 

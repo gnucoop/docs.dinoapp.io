@@ -7,7 +7,7 @@ description: Como usar o assistente de IA DinoGPT no Dino para fazer perguntas e
 
 O DinoGPT é um assistente de IA que permite fazer perguntas em linguagem natural e receber respostas extraídas de uma base de conhecimento configurada. Ele foi projetado para conversas diretas — você digita uma pergunta e recebe uma resposta, juntamente com referências aos documentos de origem nos quais a resposta se baseia.
 
-![DinoGPT](../../imgs/gpt/index.png)
+![DinoGPT](../imgs/gpt/index.png)
 
 !!! note "Funcionalidade opcional"
     Este recurso requer uma chave de API DINO-AI e pode não estar disponível na sua instalação. Se você não conseguir ver esta opção, entre em contato com o administrador.

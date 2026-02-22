@@ -7,7 +7,7 @@ description: Uma visão geral do Painel de Controle do Dino — a tela inicial e
 
 O Painel de Controle é a primeira tela que você vê após fazer login. Ele serve como seu hub central para navegar pelos recursos do Dino. Dependendo da configuração do seu sistema, ele aparecerá em um de dois layouts: um **Painel de Controle de Menu** ou um **Painel de Controle de Relatórios**.
 
-![Painel de Controle](../../imgs/dashboard/index.png)
+![Painel de Controle](../imgs/dashboard/index.png)
 
 ---
 

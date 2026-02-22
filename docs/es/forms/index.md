@@ -7,7 +7,7 @@ description: Una visión general del área de Recopilación de Datos en Dino, do
 
 El área de Recopilación de Datos es el centro neurálgico para toda la entrada de datos basada en formularios en Dino. Desde aquí puedes acceder a cada esquema de formulario con el que trabaja tu equipo, enviar nuevas entradas, revisar envíos existentes y explorar los datos recopilados en un mapa o mediante análisis asistido por IA.
 
-![Recopilación de Datos](../../imgs/forms/index.png)
+![Recopilación de Datos](../imgs/forms/index.png)
 
 Cuando abres el área de Recopilación de Datos, verás una lista de todos los esquemas de formulario disponibles. Cada elemento de la lista muestra el nombre y el icono del formulario.
 

@@ -7,7 +7,7 @@ description: Como iniciar sessão no Dino, redefinir a sua palavra-passe, criar 
 
 A página de Login é o ponto de partida da sua experiência no Dino. A partir daqui pode iniciar sessão na sua conta, criar uma nova conta ou recuperar o acesso se se esqueceu da sua palavra-passe. Dependendo de como a sua organização configurou o Dino, algumas das opções descritas abaixo podem não estar visíveis na sua instalação.
 
-![Iniciar Sessão](../../imgs/getting-started/login.png)
+![Iniciar Sessão](../imgs/getting-started/login.png)
 
 ---
 

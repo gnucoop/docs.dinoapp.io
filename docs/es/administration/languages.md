@@ -7,7 +7,7 @@ description: Cómo gestionar las traducciones de la aplicación, incluyendo agre
 
 La página **Idiomas** permite a los administradores gestionar todo el texto traducido que se utiliza en Dino. Desde aquí, puedes navegar, editar y agregar traducciones, gestionar qué idiomas están disponibles y exportar archivos de traducción para respaldo o edición.
 
-![Gestión de Idiomas](../../imgs/administration/languages.png)
+![Gestión de Idiomas](../imgs/administration/languages.png)
 
 !!! warning "Solo acceso de administrador"
     Esta área solo es visible para usuarios con el rol de Administrador. Si no puedes verla en la navegación, contacta a tu administrador del sistema.

@@ -7,7 +7,7 @@ description: How to create a new form submission, including metric selection, au
 
 This page explains how to fill in a new form submission. You can start a new submission by selecting a form from the list and clicking the **+** button.
 
-![Filling In a Form](../../imgs/forms/filling-in-a-form.png)
+![Filling In a Form](../imgs/forms/filling-in-a-form.png)
 
 ---
 

@@ -7,7 +7,7 @@ description: Come generare un nuovo report da uno schema di report in Dino, incl
 
 Per generare un nuovo report, vai all'hub Report, apri uno schema di report e fai clic sul **pulsante +** (il pulsante circolare fluttuante in basso a destra della pagina).
 
-![Creazione di un report](../../imgs/reports/creating-a-report.png)
+![Creazione di un report](../imgs/reports/creating-a-report.png)
 
 !!! note "Autorizzazione richiesta"
     Il pulsante di aggiunta è visibile solo se si dispone dell'autorizzazione per creare report per questo schema.

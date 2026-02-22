@@ -7,7 +7,7 @@ description: How to browse, create, edit, view, import, and delete metric entrie
 
 In Dino, you can manage different types of structured data, called metrics. These include Thematic Areas, Cases, Locations, Projects, and Organisations. You access each type from the main navigation. Each metric type has a dedicated management page with a consistent layout for viewing and managing its entries.
 
-![Managing Metrics](../../imgs/metrics/managing-metrics.png)
+![Managing Metrics](../imgs/metrics/managing-metrics.png)
 
 !!! note "Permission required"
     Managing metric values requires specific permissions. If you cannot see the create, edit, or delete options, contact your administrator.

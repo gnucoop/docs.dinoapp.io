@@ -9,7 +9,7 @@ Les métriques sont les catégories de données de référence utilisées dans D
 
 La zone Métriques est l'endroit où vous gérez les listes de valeurs disponibles pour chaque catégorie. Elle sert de centre névralgique pour toutes vos données de référence.
 
-![Métriques](../../imgs/metrics/index.png)
+![Métriques](../imgs/metrics/index.png)
 
 ---
 

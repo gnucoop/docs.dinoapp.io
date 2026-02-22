@@ -7,7 +7,7 @@ description: Como visualizar, pesquisar e abrir suas notificações no aplicativ
 
 A página de Notificações mostra todas as mensagens enviadas a você pelo sistema ou pelo seu administrador. A partir daqui, você pode navegar, pesquisar e abrir notificações individuais, incluindo aquelas que vinculam diretamente a uma área relevante do aplicativo.
 
-![Notificações](../../imgs/notifications/index.png)
+![Notificações](../imgs/notifications/index.png)
 
 ---
 

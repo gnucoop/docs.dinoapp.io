@@ -7,7 +7,7 @@ description: An overview of the Dino application shell — the toolbar, side nav
 
 The Dino interface consists of a top toolbar and a side navigation menu that are present on every page after you log in.
 
-![Dino interface overview — toolbar and collapsed side navigation](../../imgs/interface/img1.jpg)
+![Dino interface overview — toolbar and collapsed side navigation](../imgs/interface/img1.jpg)
 
 ---
 
@@ -35,13 +35,13 @@ The side menu lets you move between the main areas of the application.
 
 On large screens the menu is always visible on the left. On smaller screens it collapses and can be opened with the **menu button** (hamburger icon) in the top toolbar. On either screen size, click the menu button to expand the menu labels or collapse them to icons only.
 
-![Side navigation expanded with section labels](../../imgs/interface/img2.jpg)
+![Side navigation expanded with section labels](../imgs/interface/img2.jpg)
 
 ---
 
 ## Top Toolbar
 
-![Top toolbar controls](../../imgs/interface/img3.jpg)
+![Top toolbar controls](../imgs/interface/img3.jpg)
 
 The toolbar at the top of the screen contains the following controls, from left to right:
 
@@ -82,7 +82,7 @@ When a sync completes, a notification appears briefly at the bottom of the scree
 
 ## Notifications
 
-![Notifications dropdown open](../../imgs/interface/img4.jpg)
+![Notifications dropdown open](../imgs/interface/img4.jpg)
 
 Click the **bell icon** in the toolbar to open the notifications dropdown. The badge on the bell shows the number of unread messages.
 
@@ -97,13 +97,13 @@ From the dropdown you can:
 
 ## User Area
 
-![User Area dialog](../../imgs/interface/img5.jpg)
+![User Area dialog](../imgs/interface/img5.jpg)
 
 Click the **settings icon**, your **user name**, or the **DINO-AI Credits counter** to open the User Area dialog. It shows your full name and email address at the top, and contains the following sections:
 
 ### Change Password
 
-![Change Password panel](../../imgs/interface/img6.jpg)
+![Change Password panel](../imgs/interface/img6.jpg)
 
 Enter your **Current Password**, a **New Password**, and **Confirm New Password**, then click the arrow button to save. An error message will appear if the current password is incorrect or if the new passwords do not match.
 
@@ -119,7 +119,7 @@ Shows your current **DINO-AI credit balance**. If a payment integration is confi
 
 ### DINO Theme
 
-![DINO Theme colour customisation panel](../../imgs/interface/img7.jpg)
+![DINO Theme colour customisation panel](../imgs/interface/img7.jpg)
 
 Customise the application colour scheme:
 

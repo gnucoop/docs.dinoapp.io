@@ -7,7 +7,7 @@ description: Come accedere, compilare e inviare un modulo pubblico in Dino senza
 
 I moduli pubblici consentono a chiunque disponga di un link di inviare dati a Dino senza dover effettuare l'accesso o avere un account. Questo è comunemente utilizzato per sondaggi, registrazioni o raccolta di feedback. Se hai ricevuto un link pubblico a un modulo, puoi utilizzare questa pagina per completarlo.
 
-![Moduli Pubblici](../../imgs/public-forms/index.png)
+![Moduli Pubblici](../imgs/public-forms/index.png)
 
 ---
 

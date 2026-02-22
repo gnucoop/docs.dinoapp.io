@@ -7,7 +7,7 @@ description: How to create and edit form schemas in Dino, including the form bui
 
 Form schemas define the structure and fields used when collecting data. Administrators and users with the appropriate permissions can create new schemas, edit existing ones, and configure how they behave.
 
-![Managing Form Schemas](../../imgs/forms/managing-templates.png)
+![Managing Form Schemas](../imgs/forms/managing-templates.png)
 
 !!! warning "Permission required"
     Managing form schemas requires specific permissions. If you cannot see the create or edit options, contact your administrator.

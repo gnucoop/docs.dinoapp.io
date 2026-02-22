@@ -7,7 +7,7 @@ description: Comment consulter, rechercher et ouvrir vos notifications dans l'ap
 
 La page Notifications affiche tous les messages qui vous ont été envoyés par le système ou votre administrateur. Vous pouvez y parcourir, rechercher et ouvrir des notifications individuelles, y compris celles qui renvoient directement vers une zone pertinente de l'application.
 
-![Notifications](../../imgs/notifications/index.png)
+![Notifications](../imgs/notifications/index.png)
 
 ---
 

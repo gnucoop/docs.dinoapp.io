@@ -7,7 +7,7 @@ description: An overview of the Reports area in Dino — how to find report sche
 
 The Reports area is your hub for accessing all available report schemas. A report schema defines the structure and content of a report that can be generated from your collected data. From here, you can browse schemas and access the reports that have already been created.
 
-![Reports](../../imgs/reports/index.png)
+![Reports](../imgs/reports/index.png)
 
 ---
 

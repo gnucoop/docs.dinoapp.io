@@ -7,7 +7,7 @@ description: Come creare, modificare e gestire account utente e gruppi di autori
 
 L'area Utenti consente agli amministratori di gestire chi può accedere a Dino e cosa è autorizzato a fare. È divisa in due sezioni: **Utenti**, per gli account individuali, e **Gruppi**, per insiemi di autorizzazioni che possono essere assegnati a più utenti contemporaneamente.
 
-![Gestione Utenti e Gruppi](../../imgs/administration/users.png)
+![Gestione Utenti e Gruppi](../imgs/administration/users.png)
 
 !!! warning "Solo accesso amministratore"
     Questa area è visibile solo agli utenti con il ruolo di Amministratore. Se non la vedi nella navigazione, contatta il tuo amministratore di sistema.

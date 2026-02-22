@@ -7,7 +7,7 @@ description: How to use the Aggregation view in Dino to browse and manage form s
 
 The Aggregation page provides a unified view of all form submissions across your organization. Instead of viewing submissions for one form schema at a time, you can see entries from multiple schemas together in a single, filterable list.
 
-![Aggregation](../../imgs/aggregation/index.png)
+![Aggregation](../imgs/aggregation/index.png)
 
 ## Browsing the List
 

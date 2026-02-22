@@ -7,7 +7,7 @@ description: Cómo usar la función de Chat de Datos con IA para hacer preguntas
 
 La página de Chat de Datos te permite hacer preguntas en lenguaje natural sobre los envíos recopilados para un formulario. El asistente de IA analiza los datos y devuelve respuestas en texto, tablas o gráficos.
 
-![Chatear con tus datos (IA)](../../imgs/forms/data-chat.png)
+![Chatear con tus datos (IA)](../imgs/forms/data-chat.png)
 
 !!! note "Función opcional"
     Esta función requiere una clave API de DataChat y puede no estar disponible en tu instalación. Si no ves esta opción, contacta con tu administrador.

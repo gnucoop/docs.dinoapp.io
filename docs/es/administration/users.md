@@ -7,7 +7,7 @@ description: Cómo crear, editar y gestionar cuentas de usuario y grupos de perm
 
 El área de Usuarios permite a los administradores gestionar quién puede acceder a Dino y qué se les permite hacer. Se divide en dos secciones: **Usuarios**, para cuentas individuales, y **Grupos**, para conjuntos de permisos que pueden asignarse a varios usuarios a la vez.
 
-![Gestión de Usuarios y Grupos](../../imgs/administration/users.png)
+![Gestión de Usuarios y Grupos](../imgs/administration/users.png)
 
 !!! warning "Solo acceso de administrador"
     Esta área solo es visible para usuarios con el rol de Administrador. Si no puede verla en la navegación, contacte a su administrador del sistema.

@@ -7,7 +7,7 @@ description: Completa il tuo acquisto per i servizi Dino e gestisci il tuo abbon
 
 La pagina Checkout in Dino è il luogo in cui finalizzi il pagamento per i servizi, ad esempio per aggiornare il tuo piano di abbonamento o acquistare funzionalità aggiuntive. Questa pagina utilizza un sistema di pagamento sicuro e integrato per elaborare la tua transazione.
 
-![Checkout](../../imgs/checkout/index.png)
+![Checkout](../imgs/checkout/index.png)
 
 ## Cosa Vedrai
 
