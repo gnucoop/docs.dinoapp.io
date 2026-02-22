@@ -1,5 +1,6 @@
 site_name: Dinoapp Documentation
 site_url: https://gnucoop.github.io/docs.dinoapp.io/
+docs_dir: docs/en
 theme:
   name: material
   language: en
