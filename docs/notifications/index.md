@@ -7,6 +7,8 @@ description: How to view, search, and open your in-app notifications in Dino.
 
 The Notifications page shows all messages sent to you by the system or your administrator. From here you can browse, search, and open individual notifications, including ones that link directly to a relevant area of the application.
 
+![Notifications](../imgs/notifications/index.png)
+
 ---
 
 ## Reading Your Notifications

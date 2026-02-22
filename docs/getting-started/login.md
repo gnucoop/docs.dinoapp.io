@@ -7,15 +7,17 @@ description: How to sign in to Dino, reset your password, create an account, and
 
 The Login page is the starting point of your Dino experience. From here you can sign in to your account, create a new account, or recover access if you have forgotten your password. Depending on how your organisation has set up Dino, some of the options described below may not be visible in your installation.
 
+![Logging In](../imgs/getting-started/login.png)
+
 ---
 
 ## Signing In
 
 Use your credentials to access the platform.
 
-1. On the Login page, enter your **username or email address** in the first field.
-2. Enter your **password** in the second field.
-3. Click the **arrow button** to sign in.
+1.  On the Login page, enter your **username or email address** in the first field.
+2.  Enter your **password** in the second field.
+3.  Click the **arrow button** to sign in.
 
 If your credentials are correct, you will be taken to the Dashboard automatically.
 
@@ -30,9 +32,9 @@ If you have forgotten your password, you can request a reset link by email.
 !!! note "Optional feature"
     This option may not be available in your installation. If you do not see the "Forgot your password?" link, contact your administrator.
 
-1. On the Login page, click **"Forgot your password?"** below the sign-in form.
-2. Enter the **email address** associated with your account.
-3. Click the **arrow button** to send the request.
+1.  On the Login page, click **"Forgot your password?"** below the sign-in form.
+2.  Enter the **email address** associated with your account.
+3.  Click the **arrow button** to send the request.
 
 You will receive a confirmation message at the top of the screen. Check your inbox for an email containing a link to set a new password. If the email does not arrive within a few minutes, check your spam folder.
 
@@ -47,13 +49,13 @@ If you do not have an account yet, you may be able to register directly from the
 !!! note "Optional feature"
     This option may not be available in your installation. If you do not see the "New User? Create new account" link, contact your administrator to have an account created for you.
 
-1. On the Login page, click **"New User? Create new account"**.
-2. Enter your **full name**.
-3. Enter your **email address**.
-4. Choose a **password** (at least 9 characters long).
-5. Re-enter your password in the **Confirm Password** field to make sure it matches.
-6. If a **Privacy Policy** is shown, read the text and tick the checkbox to accept the terms and conditions. You must accept in order to proceed.
-7. Click the **arrow button** to create your account.
+1.  On the Login page, click **"New User? Create new account"**.
+2.  Enter your **full name**.
+3.  Enter your **email address**.
+4.  Choose a **password** (at least 9 characters long).
+5.  Re-enter your password in the **Confirm Password** field to make sure it matches.
+6.  If a **Privacy Policy** is shown, read the text and tick the checkbox to accept the terms and conditions. You must accept in order to proceed.
+7.  Click the **arrow button** to create your account.
 
 Once your account is created you will be signed in and taken to the Dashboard automatically.
 
@@ -68,9 +70,9 @@ Your organisation may allow you to sign in using your existing Microsoft or Goog
 !!! note "Optional feature"
     This option may not be available in your installation. The buttons will only appear if your administrator has enabled external login.
 
-1. On the Login page, click **"Login with Microsoft"** or **"Login with Google"**, depending on which account you want to use.
-2. You will be redirected to Microsoft or Google to confirm your identity.
-3. After authorising access, you will be brought back to Dino and signed in automatically.
+1.  On the Login page, click **"Login with Microsoft"** or **"Login with Google"**, depending on which account you want to use.
+2.  You will be redirected to Microsoft or Google to confirm your identity.
+3.  After authorising access, you will be brought back to Dino and signed in automatically.
 
 ---
 

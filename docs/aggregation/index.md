@@ -5,68 +5,50 @@ description: How to use the Aggregation view in Dino to browse and manage form s
 
 # Aggregation
 
-The Aggregation page provides a unified view of form submissions across all form schemas. Instead of browsing one form schema at a time, you can see entries from multiple schemas together, filtered and sorted in a single list.
+The Aggregation page provides a unified view of all form submissions across your organization. Instead of viewing submissions for one form schema at a time, you can see entries from multiple schemas together in a single, filterable list.
 
-![Aggregation list overview](../imgs/aggregation/img1.jpg)
-
----
+![Aggregation](../imgs/aggregation/index.png)
 
 ## Browsing the List
 
-The list shows all submissions you have access to, regardless of which form schema they were created with. The following columns are displayed by default:
+The list displays all submissions you have permission to view. Each row represents a single submission. The following columns are shown by default:
 
-- **Form Schema** — the name of the form schema this submission belongs to.
-- **Status** — the current workflow status of the submission.
-- Additional metric columns (location, project, organisation, etc.) are shown when those metric types are active.
+*   **Form Schema**: The name of the form schema this submission belongs to.
+*   **Status**: The current workflow status of the submission.
+*   Additional columns for metrics like **Project**, **Location**, or **Organization** may also appear, depending on your system's configuration.
 
-Click a row to select or expand it and see more details.
-
----
+You can click on any row to select it or expand it to see more details.
 
 ## Filtering the List
 
-![Filter bar expanded with all available filter fields](../imgs/aggregation/img2.jpg)
+A filter bar is located above the list. Use it to narrow down the submissions shown. You can filter by:
 
-A filter bar above the list lets you narrow down which entries are shown:
+*   Project
+*   Location
+*   Area
+*   Case
+*   Case Code
+*   Organization
+*   Form Status
+*   User
 
-- **Project** — filter by project metric.
-- **Location** — filter by location metric.
-- **Area** — filter by area metric.
-- **Case / Case code** — filter by case or case code metric.
-- **Organisation** — filter by organisation metric.
-- **Status** — filter by workflow status.
-- **User** — filter by the user who created the entry.
-
-!!! note
-    The Aggregation filter bar does not include presets or export options. To export data or use saved filter presets, navigate to the individual form's submissions list instead.
-
----
+!!! tip "Filtering Tips"
+    The Aggregation filter bar is designed for quick, cross-schema filtering. For advanced features like saved filter presets or data export, navigate to the submissions list for a specific form schema.
 
 ## Row Actions
 
-![Row actions revealed on hover](../imgs/aggregation/img3.jpg)
+When you hover over a row, a set of action icons appears on the right. The actions available for a specific submission depend on your permissions for its form schema.
 
-Each row has a set of action icons on the right. The actions available depend on your permissions for the relevant form schema:
+*   **View** (![eye icon]()): Open the submission in a read-only view.
+*   **Edit** (![pencil icon]()): Open the submission for editing.
+*   **Print** (![printer icon]()): Generate and open a PDF version of the submission. You will be asked to confirm before the PDF is created.
+*   **Delete** (![delete icon]()): Permanently delete the submission. You will be asked to confirm this action.
 
-- **View** (eye icon) — open the entry in read-only mode.
-- **Edit** (pencil icon) — open the entry for editing.
-- **Print** (printer icon) — generate a PDF version of the entry. A confirmation prompt will appear before printing.
-- **Delete** (bin icon) — permanently delete the entry. A confirmation prompt will appear.
+## Creating a New Submission
 
-!!! note "Permission-based actions"
-    The actions shown for each row depend on your permissions for that specific form schema.
+You can start a new form submission directly from the Aggregation page.
 
----
-
-## Adding a New Entry
-
-![Create Form dialog — choose the form schema to fill in](../imgs/aggregation/img4.jpg)
-
-Click the **+ button** (floating circular button at the bottom-right of the page) to create a new submission.
-
-A dialog will open asking you to **choose the type of form** you want to fill in:
-
-1. Select a form schema from the list of available schemas.
-2. Click **Create Form** to open the form and begin filling it in.
-
-The list of available form schemas shown in the dialog is limited to the schemas your account has permission to create submissions for.
+1.  Click the **+** (Add) button in the bottom-right corner of the screen.
+2.  A dialog opens, showing a list of form schemas you have permission to create submissions for.
+3.  Select the desired form schema from the list.
+4.  Click **Create Form**. You will be taken to the form to begin filling it out.

@@ -7,6 +7,8 @@ description: How to create, edit, and manage user accounts and permission groups
 
 The Users area lets administrators manage who can access Dino and what they are allowed to do. It is divided into two sections: **Users**, for individual accounts, and **Groups**, for sets of permissions that can be assigned to multiple users at once.
 
+![Managing Users & Groups](../imgs/administration/users.png)
+
 !!! warning "Administrator access only"
     This area is only visible to users with the Administrator role. If you cannot see it in the navigation, contact your system administrator.
 

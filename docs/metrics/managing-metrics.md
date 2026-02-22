@@ -5,7 +5,9 @@ description: How to browse, create, edit, view, import, and delete metric entrie
 
 # Managing Metrics
 
-Each metric type — Thematic Areas, Cases, Locations, Projects, and Organisations — has a management page with the same structure: a searchable list, row actions to view, edit, or delete individual entries, and buttons to add or import entries in bulk.
+In Dino, you can manage different types of structured data, called metrics. These include Thematic Areas, Cases, Locations, Projects, and Organisations. You access each type from the main navigation. Each metric type has a dedicated management page with a consistent layout for viewing and managing its entries.
+
+![Managing Metrics](../imgs/metrics/managing-metrics.png)
 
 !!! note "Permission required"
     Managing metric values requires specific permissions. If you cannot see the create, edit, or delete options, contact your administrator.
@@ -14,118 +16,90 @@ Each metric type — Thematic Areas, Cases, Locations, Projects, and Organisatio
 
 ## Browsing the List
 
-The list shows all entries for the selected metric type. Use the filter bar above the list to search and narrow down results.
+The main page shows a list of all entries for the selected metric type. You can:
 
-Click the **Export** button in the filter bar to download the current list as a file.
-
-Click a row to select or expand it.
-
----
-
-## Row Actions
-
-Each row has a set of action icons on the right:
-
-- **View** (eye icon) — open the entry in read-only mode.
-- **Edit** (pencil icon) — open the entry for editing.
-- **Delete** (bin icon) — open a confirmation dialog before permanently deleting the entry.
-- **Print** (printer icon) — generate a card PDF for this entry. *(Cases only.)*
-
----
-
-## Bulk Delete
-
-Select multiple entries using the checkboxes on their rows, then use the bulk delete action that appears in the toolbar. A confirmation dialog will appear before any entries are deleted.
+*   **Search and Filter**: Use the search bar above the list to find entries by name or other attributes.
+*   **Sort**: Click on column headers marked with a sort icon to reorder the list.
+*   **Export**: Click the **Export** button in the toolbar to download the current list as a file.
+*   **Select or Expand**: Click anywhere on a row to select it. Click the expand icon to see more details.
 
 ---
 
 ## Creating a New Entry
 
-Click the **+ button** (floating circular button at the bottom-right) to open the editor dialog for a new entry.
+1.  Click the **+** button (the circular floating button at the bottom-right of the screen).
+2.  A dialog will open with fields for the new entry.
+3.  Fill in the required information and click **Save**.
 
 ---
 
-## Importing Entries
+## Editing or Viewing an Entry
 
-Click the **Import button** (cloud upload icon, floating button at the bottom-right) to bulk-import entries from a file.
+Each row in the list has action icons on the right side.
 
-1. Click **Choose file** and select an `.xls`, `.xlsx`, or `.csv` file from your device.
-2. Optionally tick **Don't import metrics if name exists** to skip any rows whose name already exists in the system.
-3. Click **Apply** to start the import.
-4. Click **Close** when done.
+1.  To view an entry's details without editing, click the **View (eye)** icon.
+2.  To edit an entry, click the **Edit (pencil)** icon.
+3.  The same editor dialog opens, populated with the entry's current data. Make your changes and click **Save**.
 
 ---
 
-## The Entry Editor
+## Deleting Entries
 
-When you create or edit an entry, a dialog opens with the fields for that metric type. In view mode, the fields are read-only.
+You can delete entries individually or in bulk.
 
-### Common fields (all metric types)
+**To delete a single entry:**
+1.  Click the **Delete (trash can)** icon on the row you wish to remove.
+2.  A confirmation dialog will appear. Click **Confirm** to permanently delete the entry.
 
-- **Name** *(required)* — the display name of this entry. Must be unique within the metric type.
-- **Parent** — an optional parent entry that this entry belongs to, enabling hierarchical groupings (for example, a sub-location within a location). Start typing to search for and select the parent.
+**To delete multiple entries:**
+1.  Select the entries by checking the boxes on their rows.
+2.  A toolbar will appear. Click the **Delete** action in this toolbar.
+3.  Confirm the deletion in the dialog that appears.
 
-### Thematic Areas
+---
 
-| Field | Notes |
-|---|---|
-| Name | Required |
-| Parent Area | Optional, autocomplete |
+## Importing Entries in Bulk
 
-### Cases
+You can add many entries at once by importing them from a file.
 
-| Field | Notes |
-|---|---|
-| Name | Required |
-| Code | Read-only |
-| Image | Upload a JPG/PNG (max 1 MB) or take a photo using the camera tab |
-| Parent Case | Optional, autocomplete |
+1.  Click the **Import (cloud upload)** button, which is a floating button at the bottom-right of the screen.
+2.  In the dialog, click **Choose file** and select an `.xls`, `.xlsx`, or `.csv` file from your device.
+3.  (Optional) Check the box for **Don't import metrics if name exists** to avoid creating duplicate entries.
+4.  Click **Apply** to start the import.
+5.  Click **Close** when the process is complete.
 
-### Locations
+---
 
-| Field | Notes |
-|---|---|
-| Name | Required |
-| Coordinates | Optional |
-| Parent Location | Optional, autocomplete |
+## Understanding the Entry Editor
 
-### Organisations
+When you create, edit, or view an entry, a dialog opens with its fields. The available fields depend on the metric type.
 
-| Field | Notes |
-|---|---|
-| Name | Required |
-| Logo Path | Optional |
-| Website URL | Optional |
-| Parent Organisation | Optional, autocomplete |
+### Common Fields
+*   **Name** *(Required)*: The display name for this entry. It must be unique within its metric type.
+*   **Parent**: An optional field to link this entry to a parent, creating a hierarchy (e.g., a sub-project within a project). Start typing to search for and select a parent.
 
-### Projects
+### Metric-Specific Fields
 
-| Field | Notes |
-|---|---|
-| Name | Required |
-| Code | Read-only |
-| Sectors of Intervention | Optional |
-| Donors | Optional |
-| Start Date | Optional, date picker |
-| End Date | Optional, date picker |
-| Parent Project | Optional, autocomplete |
+| Metric Type | Key Fields (Beyond Name & Parent) |
+| :--- | :--- |
+| **Thematic Areas** | No additional standard fields. |
+| **Cases** | **Code** (read-only), **Image** (upload or take a photo). |
+| **Locations** | **Coordinates**. |
+| **Organisations** | **Logo Path**, **Website URL**. |
+| **Projects** | **Code**, **Sectors of Intervention**, **Donors**, **Start Date**, **End Date**. |
 
 ### Additional Attributes
 
-Below the main fields, an **Additional attributes** section lets you attach any number of custom key-value pairs to an entry. Click **+** to add a new attribute and **−** to remove one. These are hidden in view mode if no attributes have been set.
+Below the standard fields, you will find an **Additional attributes** section. Here you can attach custom key-value pairs to an entry.
+*   Click **+** to add a new attribute row.
+*   Click **-** next to an attribute to remove it.
+*   This section is hidden in view mode if no custom attributes exist.
 
-### Saving
+### Saving Your Work
+Click **Save** to create or update the entry. A brief confirmation message will appear.
 
-Click **Save** to save the entry. A confirmation message will appear briefly.
+!!! warning "Saving Errors"
+    If you see an error when saving, check that all required fields are filled and that the entry name is not already in use. If the problem continues, contact your administrator.
 
-!!! warning "Oops! Something went wrong while saving the Metric."
-    If an error appears when saving, check that all required fields are filled in and that the name is not already used by another entry of the same type. If the problem persists, contact your administrator.
-
-!!! warning "Offline image upload"
-    If you are offline when saving an entry that includes an image, the image will not be uploaded. Save the image again once you are back online.
-
----
-
-## Deleting an Entry
-
-Click the **Delete** row action or use the bulk delete action. A confirmation dialog will ask you to confirm before the entry is permanently removed.
+!!! warning "Offline Image Upload"
+    If you save an entry with an image while offline, the image will not be uploaded. You must save the entry again once you are back online to upload the image file.

@@ -1,57 +1,69 @@
 ---
-title: Filling In a Public Form
-description: How to complete and submit a form shared with you via a public link, without needing a Dino account.
+title: Public Forms
+description: How to access, fill out, and submit a public form in Dino without needing an account.
 ---
 
-# Filling In a Public Form
+# Public Forms
 
-Some forms in Dino can be shared with anyone via a direct link, with no account or login required. If someone has sent you a link to fill in a form, this page explains how to complete and submit it.
+Public forms allow anyone with a link to submit data to Dino without needing to log in or have an account. This is commonly used for surveys, registrations, or feedback collection. If you have received a public link to a form, you can use this page to complete it.
 
-!!! note
-    Public forms are shared by administrators or team members. If you are looking for this link, check your email or ask the person who invited you to fill in the form.
-
----
-
-## Completing the Form
-
-1. Open the link you received. The form will load automatically in your browser.
-2. Read the form title at the top of the page to confirm you have opened the correct form.
-3. Fill in all the fields shown on the page. Required fields must be completed before you can submit.
-4. If the form has multiple sections or pages, use the **navigation bar at the top** of the form to move between them.
-5. Once all required fields are filled in, click the **send button** (the floating circular button with an arrow icon) to submit your answers.
-
-The send button is disabled until the form is valid. If it remains greyed out, scroll through the form to find any fields that still need to be completed.
+![Public Forms](../imgs/public-forms/index.png)
 
 ---
 
-## After Submitting
+## Accessing a Public Form
 
-If your submission is accepted, the form will be replaced by a confirmation screen showing:
+1.  Click the public form link you received (e.g., via email or a shared message).
+2.  The form will open directly in your web browser. You do not need to sign in.
+3.  Review the form title and any introductory text to confirm it's the correct form.
 
-> **The form has been successfully submitted.** ✓
+!!! tip
+    Public form links are unique and often contain a long identifier (like `/f/abc123def`). If the page doesn't load, ensure the entire link was copied correctly.
 
-A notification will also appear at the bottom of the screen. If you need to fill in the same form again — for example, to record another entry — click **"Fill out another one"** in that notification. This will reload the page with a blank form.
+---
+
+## Completing and Submitting
+
+1.  Fill in all the fields on the form. Fields marked with an asterisk (*) are **required**.
+2.  If the form has multiple sections, use the navigation tabs or buttons at the top of the form to move between them.
+3.  As you fill out fields, the form validates your input. Invalid entries are typically highlighted.
+4.  Once all required fields are valid, the primary submit button (usually a circular button with a send icon) will become active.
+5.  Click the submit button to send your data.
+
+!!! warning
+    The submit button will remain disabled (greyed out) if any required field is empty or contains invalid data. Scroll through the form to find and correct any highlighted issues.
+
+---
+
+## After Submission
+
+Upon a successful submission, you will see a confirmation screen with a checkmark and the message: **"The form has been successfully submitted."**
+
+A notification will also appear at the bottom of your screen. From this notification, you can:
+*   **Fill out another one**: Click this to reload the page with a fresh, empty copy of the same form, allowing you to make another submission.
+*   **Close**: Dismiss the notification.
 
 ---
 
 ## Troubleshooting
 
-### The send button is greyed out and cannot be clicked
-
-!!! warning
-    One or more required fields have not been filled in, or contain invalid values. Scroll through the entire form and look for fields highlighted in red — these need to be corrected before you can submit.
+### The submit button is disabled.
+This means the form is not yet valid. Check for:
+*   **Empty required fields**: Ensure all fields marked with an asterisk (*) are filled.
+*   **Invalid data**: Look for fields highlighted in red and correct the information (e.g., an invalid email format).
 
 ### "Unable to save form."
-
-!!! warning
-    Your submission could not be saved, possibly due to a temporary connection problem. Click **"Try again"** in the notification at the bottom of the screen. If the problem persists, check your internet connection and try reloading the page. If it continues to fail, contact the person who sent you the link.
+Your submission encountered a temporary error, often related to your internet connection.
+1.  Click **"Try again"** in the notification at the bottom of the screen.
+2.  If the error persists, check your internet connection and try refreshing the page.
+3.  If it continues to fail, contact the person who sent you the form link.
 
 ### "Oops! We could not find this Form Schema."
+The link you are using is incorrect or the form has been removed.
+*   Verify you have the complete, correct URL.
+*   Contact the person who shared the link with you for an updated one.
 
-!!! warning
-    The link you used does not point to a valid form. This can happen if the link is incomplete, has been modified, or if the form has been removed. Contact the person who sent you the link and ask for an updated one.
-
-### The page is blank or the form does not load
-
-!!! warning
-    This may be caused by a slow connection or a temporary problem. Try refreshing the page. If the form still does not appear, check that the link you received is complete and has not been cut off — public form links include an identifier at the end (for example: `/f/abc123`).
+### The form does not load (blank page).
+*   Refresh your browser page.
+*   Ensure your internet connection is stable.
+*   Confirm the link is complete and has not been truncated.

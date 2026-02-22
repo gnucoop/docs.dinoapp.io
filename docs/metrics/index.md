@@ -5,28 +5,39 @@ description: An overview of the Metrics area in Dino — the reference data type
 
 # Metrics
 
-Metrics are the reference data categories used across Dino to classify, organise, and filter your collected data. When filling in a form or generating a report, users select values from these categories — for example, choosing a project, a location, or an organisation.
+Metrics are the reference data categories used across Dino to classify, organize, and filter your collected data. When filling in a form or generating a report, you select values from these categories — for example, choosing a project, a location, or an organization.
 
-The Metrics area is where administrators manage the lists of available values for each category.
+The Metrics area is where you manage the lists of available values for each category. It serves as the central hub for all your reference data.
+
+![Metrics](../imgs/metrics/index.png)
 
 ---
 
 ## Metric Types
 
-The hub displays the metric types that are active in your installation. Depending on your configuration, some or all of the following may be available:
+The main page displays the metric types that are active in your Dino installation. Each type is shown as a card with an icon and label. Click on any card to open its management page.
 
-| Metric type | Description |
+Depending on your system configuration, some or all of the following metric types may be available:
+
+| Metric Type | Description |
 |---|---|
-| **Thematic Areas** | Areas of work or thematic groupings. |
-| **Cases** | Individual cases, people, or beneficiaries tracked across submissions. |
-| **Locations** | Geographic locations where data is collected. |
-| **Projects** | Projects that submissions and reports are linked to. |
-| **Organizations** | Organisations involved in or responsible for activities. |
+| **Thematic Areas** | Areas of work or thematic groupings for your activities. |
+| **Cases** | Individual cases, people, or beneficiaries tracked across form submissions. |
+| **Locations** | Geographic locations where data is collected or activities occur. |
+| **Projects** | Projects that form submissions and reports are linked to. |
+| **Organizations** | Organizations involved in or responsible for activities. |
 
-Click on a metric type to open its management page.
+!!! tip "Accessing Metrics"
+    You can navigate to the Metrics area by clicking **Metrics** in the main application menu.
 
 ---
 
-## Managing Metric Values
+## What You Can Do
 
-Each metric type has its own management page where you can browse, create, edit, view, and delete entries. See [Managing Metrics](managing-metrics.md) for details.
+From the main Metrics page, you can:
+
+1.  **View all active metric types** available for your data.
+2.  **Navigate to a specific metric type** by clicking its card. This takes you to a dedicated page where you can manage the list of values for that type (e.g., add a new location or edit a project name).
+3.  **Use breadcrumbs** at the top of the page to track your navigation path within the Metrics section.
+
+For detailed instructions on adding, editing, or deleting values within a specific metric type, see [Managing Metrics](managing-metrics.md).

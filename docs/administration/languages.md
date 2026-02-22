@@ -1,11 +1,13 @@
 ---
 title: Managing Languages
-description: How to browse, edit, add, and export translations in Dino.
+description: How to manage application translations, including adding languages, editing text, and exporting files.
 ---
 
 # Managing Languages
 
-The Languages page lets administrators manage the translations used throughout the application. From here you can browse all translation entries, edit individual translations, add new ones, manage which languages are available, and export translation files.
+The **Languages** page allows administrators to manage all the translated text used throughout Dino. From here, you can browse, edit, and add translations, manage which languages are available, and export translation files for backup or editing.
+
+![Managing Languages](../imgs/administration/languages.png)
 
 !!! warning "Administrator access only"
     This area is only visible to users with the Administrator role. If you cannot see it in the navigation, contact your system administrator.

@@ -5,7 +5,7 @@ description: How to browse, search, view, edit, export, and manage form submissi
 
 # Viewing & Managing Submissions
 
-The submissions list shows all entries recorded for a specific form schema. From here you can browse, search, view details, edit, export, and manage individual entries.
+This page shows all submissions for a specific form schema. You can browse, search, view details, edit, export, and manage individual entries from this list.
 
 ---
 
@@ -25,7 +25,7 @@ A filter bar above the list lets you narrow down which entries are shown:
 
 - **Keyword search** — type any word to filter entries whose fields contain that text.
 - **From date / To date** — show only entries created within a date range.
-- **Metric filters** — filter by project, location, organisation, case, or other metric types.
+- **Metric filters** — filter by project, location, area, case, organization, or other linked data.
 - **Status filter** — show only entries with a specific workflow status.
 - **User filter** — show only entries created by a specific user or user group.
 - **Saved filters (presets)** — save your current filter combination as a preset for quick access later. Use the preset menu in the filter bar to save, load, or delete presets.
@@ -44,11 +44,11 @@ Each row has a set of action icons on the right. The actions available depend on
 - **Export as Word** (document icon) — download the entry as a Word document.
 - **Duplicate** (copy icon) — create a new draft entry pre-filled with this entry's data.
 - **Delete** (bin icon) — permanently delete the entry. A confirmation prompt will appear.
-- **Print badge** — generate a badge document for this entry.
-- **View log** — see the history of changes made to this entry.
+- **Print badge** (badge icon) — generate a badge document for this entry (available if the form is linked to a case).
+- **View log** (history icon) — see the history of changes made to this entry.
 
 !!! note "Permission-based actions"
-    Not all actions are visible to every user. The actions shown depend on your assigned permissions.
+    Not all actions are visible to every user. The actions shown depend on your assigned permissions. Some actions, like edit or delete, may only be available if the entry's status allows it.
 
 ---
 
@@ -58,6 +58,9 @@ To act on multiple entries at once:
 
 1. Select the entries you want to manage by ticking the checkbox on their rows.
 2. Use the **bulk action** buttons that appear in the toolbar to delete or edit all selected entries at once.
+
+!!! warning "Bulk edit restrictions"
+    Bulk editing is only available if all selected entries have a status that permits editing.
 
 ---
 
@@ -69,7 +72,7 @@ Click the **+ button** (floating circular button at the bottom-right of the page
 
 ## Importing Entries
 
-Click the **import button** (upload icon, floating button at the bottom-right) to bulk-import entries from a file.
+Click the **import button** (cloud upload icon, floating button at the bottom-right) to bulk-import entries from a file.
 
 ---
 
