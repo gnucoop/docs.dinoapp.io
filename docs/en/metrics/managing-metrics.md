@@ -41,6 +41,9 @@ Each row in the list has action icons on the right side.
 2.  To edit an entry, click the **Edit (pencil)** icon.
 3.  The same editor dialog opens, populated with the entry's current data. Make your changes and click **Save**.
 
+!!! tip "Printing Case Cards"
+    For the **Cases** metric, you will also see a **Print (printer)** icon. Click this to generate and download a PDF summary card for that specific case.
+
 ---
 
 ## Deleting Entries

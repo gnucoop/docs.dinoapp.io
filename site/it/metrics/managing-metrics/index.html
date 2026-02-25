@@ -1,0 +1,1688 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Come sfogliare, creare, modificare, visualizzare, importare ed eliminare le voci delle metriche (aree tematiche, casi, località, organizzazioni, progetti) in Dino.">
+      
+      
+      
+        <link rel="canonical" href="https://gnucoop.github.io/docs.dinoapp.io/it/metrics/managing-metrics/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../../gpt/">
+      
+      
+        
+          <link rel="alternate" href="/docs.dinoapp.io/en/" hreflang="en">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/it/" hreflang="it">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/es/" hreflang="es">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/fr/" hreflang="fr">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/pt/" hreflang="pt">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/uk/" hreflang="uk">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/ar/" hreflang="ar">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>Gestione delle Metriche - Documentazione Dinoapp</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gestione-delle-metriche" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="Documentazione Dinoapp" class="md-header__button md-logo" aria-label="Documentazione Dinoapp" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentazione Dinoapp
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gestione delle Metriche
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleziona la lingua">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/it/" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/es/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/fr/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/pt/" hreflang="pt" class="md-select__link">
+              Português
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/uk/" hreflang="uk" class="md-select__link">
+              Українська
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/ar/" hreflang="ar" class="md-select__link">
+              العربية
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Documentazione Dinoapp" class="md-nav__button md-logo" aria-label="Documentazione Dinoapp" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentazione Dinoapp
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Per Iniziare
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Per Iniziare
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accesso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/reset-password/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reimpostare la Password
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interface/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interfaccia e Navigazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Moduli
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Moduli
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panoramica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/filling-in-a-form/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compilare un Modulo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/viewing-submissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visualizzare e Gestire le Risposte
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/map-view/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esplorare i Dati sulla Mappa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/data-chat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chattare con i Tuoi Dati (AI)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/managing-templates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire gli Schemi dei Moduli
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Report
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Report
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panoramica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/creating-a-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creare un Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/viewing-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visualizzare e Gestire i Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/managing-templates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire gli Schemi dei Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aggregation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metriche
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metriche
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panoramica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire le Metriche
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire le Metriche
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sfogliare-lelenco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sfogliare l'Elenco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creare-una-nuova-voce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creare una Nuova Voce
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modificare-o-visualizzare-una-voce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificare o Visualizzare una Voce
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eliminare-le-voci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eliminare le Voci
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importare-voci-in-blocco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importare Voci in Blocco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comprendere-leditor-delle-voci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comprendere l'Editor delle Voci
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comprendere l&#39;Editor delle Voci">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#campi-comuni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campi Comuni
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campi-specifici-per-metrica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campi Specifici per Metrica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributi-aggiuntivi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attributi Aggiuntivi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#salvare-il-lavoro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Salvare il Lavoro
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DinoGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../notifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notifiche
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../public-forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Moduli Pubblici
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amministrazione
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Amministrazione
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire Utenti e Gruppi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration/languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire le Lingue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../checkout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checkout
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sfogliare-lelenco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sfogliare l'Elenco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creare-una-nuova-voce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creare una Nuova Voce
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modificare-o-visualizzare-una-voce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificare o Visualizzare una Voce
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eliminare-le-voci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eliminare le Voci
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importare-voci-in-blocco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importare Voci in Blocco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comprendere-leditor-delle-voci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comprendere l'Editor delle Voci
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comprendere l&#39;Editor delle Voci">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#campi-comuni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campi Comuni
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campi-specifici-per-metrica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campi Specifici per Metrica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attributi-aggiuntivi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attributi Aggiuntivi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#salvare-il-lavoro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Salvare il Lavoro
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="gestione-delle-metriche">Gestione delle Metriche</h1>
+<p>In Dino, puoi gestire diversi tipi di dati strutturati, chiamati metriche. Questi includono Aree Tematiche, Casi, Località, Progetti e Organizzazioni. Puoi accedere a ciascun tipo dalla navigazione principale. Ogni tipo di metrica ha una pagina di gestione dedicata con un layout coerente per visualizzare e gestire le sue voci.</p>
+<p><img alt="Gestione delle Metriche" src="../../imgs/metrics/managing-metrics.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Autorizzazione richiesta</p>
+<p>La gestione dei valori delle metriche richiede autorizzazioni specifiche. Se non riesci a vedere le opzioni per creare, modificare o eliminare, contatta il tuo amministratore.</p>
+</div>
+<hr />
+<h2 id="sfogliare-lelenco">Sfogliare l'Elenco</h2>
+<p>La pagina principale mostra un elenco di tutte le voci per il tipo di metrica selezionato. Puoi:</p>
+<ul>
+<li><strong>Cercare e Filtrare</strong>: Usa la barra di ricerca sopra l'elenco per trovare voci per nome o altri attributi.</li>
+<li><strong>Ordinare</strong>: Clicca sulle intestazioni delle colonne contrassegnate da un'icona di ordinamento per riordinare l'elenco.</li>
+<li><strong>Esportare</strong>: Clicca sul pulsante <strong>Esporta</strong> nella barra degli strumenti per scaricare l'elenco corrente come file.</li>
+<li><strong>Selezionare o Espandere</strong>: Clicca in qualsiasi punto di una riga per selezionarla. Clicca sull'icona di espansione per vedere più dettagli.</li>
+</ul>
+<hr />
+<h2 id="creare-una-nuova-voce">Creare una Nuova Voce</h2>
+<ol>
+<li>Clicca sul pulsante <strong>+</strong> (il pulsante circolare fluttuante in basso a destra dello schermo).</li>
+<li>Si aprirà una finestra di dialogo con i campi per la nuova voce.</li>
+<li>Compila le informazioni richieste e clicca <strong>Salva</strong>.</li>
+</ol>
+<hr />
+<h2 id="modificare-o-visualizzare-una-voce">Modificare o Visualizzare una Voce</h2>
+<p>Ogni riga nell'elenco ha delle icone di azione sul lato destro.</p>
+<ol>
+<li>Per visualizzare i dettagli di una voce senza modificarla, clicca sull'icona <strong>Visualizza (occhio)</strong>.</li>
+<li>Per modificare una voce, clicca sull'icona <strong>Modifica (matita)</strong>.</li>
+<li>Si aprirà la stessa finestra di dialogo dell'editor, popolata con i dati correnti della voce. Apporta le tue modifiche e clicca <strong>Salva</strong>.</li>
+</ol>
+<hr />
+<h2 id="eliminare-le-voci">Eliminare le Voci</h2>
+<p>Puoi eliminare le voci singolarmente o in blocco.</p>
+<p><strong>Per eliminare una singola voce:</strong>
+1.  Clicca sull'icona <strong>Elimina (cestino)</strong> sulla riga che desideri rimuovere.
+2.  Apparirà una finestra di dialogo di conferma. Clicca <strong>Conferma</strong> per eliminare definitivamente la voce.</p>
+<p><strong>Per eliminare più voci:</strong>
+1.  Seleziona le voci spuntando le caselle sulle loro righe.
+2.  Apparirà una barra degli strumenti. Clicca sull'azione <strong>Elimina</strong> in questa barra degli strumenti.
+3.  Conferma l'eliminazione nella finestra di dialogo che appare.</p>
+<hr />
+<h2 id="importare-voci-in-blocco">Importare Voci in Blocco</h2>
+<p>Puoi aggiungere molte voci contemporaneamente importandole da un file.</p>
+<ol>
+<li>Clicca sul pulsante <strong>Importa (caricamento cloud)</strong>, che è un pulsante fluttuante in basso a destra dello schermo.</li>
+<li>Nella finestra di dialogo, clicca <strong>Scegli file</strong> e seleziona un file <code>.xls</code>, <code>.xlsx</code> o <code>.csv</code> dal tuo dispositivo.</li>
+<li>(Opzionale) Spunta la casella per <strong>Non importare metriche se il nome esiste già</strong> per evitare di creare voci duplicate.</li>
+<li>Clicca <strong>Applica</strong> per avviare l'importazione.</li>
+<li>Clicca <strong>Chiudi</strong> quando il processo è completo.</li>
+</ol>
+<hr />
+<h2 id="comprendere-leditor-delle-voci">Comprendere l'Editor delle Voci</h2>
+<p>Quando crei, modifichi o visualizzi una voce, si apre una finestra di dialogo con i suoi campi. I campi disponibili dipendono dal tipo di metrica.</p>
+<h3 id="campi-comuni">Campi Comuni</h3>
+<ul>
+<li><strong>Nome</strong> <em>(Obbligatorio)</em>: Il nome visualizzato per questa voce. Deve essere univoco all'interno del suo tipo di metrica.</li>
+<li><strong>Genitore</strong>: Un campo opzionale per collegare questa voce a un elemento genitore, creando una gerarchia (ad esempio, un sotto-progetto all'interno di un progetto). Inizia a digitare per cercare e selezionare un genitore.</li>
+</ul>
+<h3 id="campi-specifici-per-metrica">Campi Specifici per Metrica</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tipo di Metrica</th>
+<th style="text-align: left;">Campi Chiave (Oltre a Nome e Genitore)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Aree Tematiche</strong></td>
+<td style="text-align: left;">Nessun campo standard aggiuntivo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Casi</strong></td>
+<td style="text-align: left;"><strong>Codice</strong> (sola lettura), <strong>Immagine</strong> (carica o scatta una foto).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Località</strong></td>
+<td style="text-align: left;"><strong>Coordinate</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Organizzazioni</strong></td>
+<td style="text-align: left;"><strong>Percorso Logo</strong>, <strong>URL Sito Web</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Progetti</strong></td>
+<td style="text-align: left;"><strong>Codice</strong>, <strong>Settori di Intervento</strong>, <strong>Donatori</strong>, <strong>Data Inizio</strong>, <strong>Data Fine</strong>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="attributi-aggiuntivi">Attributi Aggiuntivi</h3>
+<p>Sotto i campi standard, troverai una sezione <strong>Attributi aggiuntivi</strong>. Qui puoi allegare coppie chiave-valore personalizzate a una voce.
+*   Clicca <strong>+</strong> per aggiungere una nuova riga di attributo.
+*   Clicca <strong>-</strong> accanto a un attributo per rimuoverlo.
+*   Questa sezione è nascosta in modalità visualizzazione se non esistono attributi personalizzati.</p>
+<h3 id="salvare-il-lavoro">Salvare il Lavoro</h3>
+<p>Clicca <strong>Salva</strong> per creare o aggiornare la voce. Apparirà un breve messaggio di conferma.</p>
+<div class="admonition warning">
+<p class="admonition-title">Errori di Salvataggio</p>
+<p>Se vedi un errore durante il salvataggio, controlla che tutti i campi obbligatori siano compilati e che il nome della voce non sia già in uso. Se il problema persiste, contatta il tuo amministratore.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Caricamento Immagine Offline</p>
+<p>Se salvi una voce con un'immagine mentre sei offline, l'immagine non verrà caricata. Devi salvare nuovamente la voce una volta tornato online per caricare il file immagine.</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,11 +1,11 @@
 ---
 title: Dashboard
-description: An overview of the Dino Dashboard — the home screen shown after logging in.
+description: The Dino Dashboard is your home screen, providing quick access to forms, reports, and other features.
 ---
 
 # Dashboard
 
-The Dashboard is the first screen you see after logging in. It serves as your central hub for navigating Dino's features. Depending on your system configuration, it will appear in one of two layouts: a **Menu Dashboard** or a **Report Dashboard**.
+The Dashboard is the first screen you see after logging into Dino. It serves as your central hub for navigating the application. Depending on your system's configuration, your Dashboard will appear in one of two layouts: a **Menu Dashboard** or a **Report Dashboard**.
 
 ![Dashboard](../imgs/dashboard/index.png)
 
@@ -17,7 +17,7 @@ In this layout, the Dashboard presents a grid of navigation cards. Each card pro
 
 You will typically see the following cards:
 
-*   **Forms**: Navigate to the [Forms](../forms/index.md) area to create new form schemas, collect data, and review submissions.
+*   **Forms**: Navigate to the [Forms](../forms/index.md) area to create form schemas, collect data, and review submissions.
 *   **Reports**: Navigate to the [Reports](../reports/index.md) area to create, view, and manage reports based on your collected data.
 *   **Metrics**: Navigate to the [Metrics](../metrics/index.md) area to manage reference data like projects, locations, and organizations.
     !!! warning "Visibility"

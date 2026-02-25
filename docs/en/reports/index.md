@@ -27,6 +27,19 @@ To view the reports for a specific schema, click on its card in the list.
 
 ---
 
+## Creating a New Report
+
+You can start the process of generating a new report directly from the main Reports page.
+
+1.  Click the **+** (plus) button located in the bottom-right corner of the screen.
+    ![Reports](../imgs/reports/index-fab.png)
+2.  A dialog will open, allowing you to select the report schema you want to use.
+3.  After selecting a schema, you will be taken to the report creation form to choose your metrics, set a date range, and generate the report.
+
+For detailed steps, see the guide on [Creating a Report](creating-a-report.md).
+
+---
+
 ## What You Can Do
 
 From the main Reports page, you can navigate to perform these key actions:

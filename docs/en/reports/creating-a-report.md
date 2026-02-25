@@ -7,8 +7,6 @@ description: How to generate a new report from a report schema in Dino, includin
 
 To generate a new report, navigate to the Reports hub, open a report schema, and click the **+ button** (the floating circular button at the bottom-right of the page).
 
-![Creating a Report](../imgs/reports/creating-a-report.png)
-
 !!! note "Permission required"
     The add button is only visible if you have permission to create reports for this schema.
 

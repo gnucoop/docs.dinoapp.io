@@ -1,6 +1,6 @@
 ---
 title: Aggregation
-description: How to use the Aggregation view in Dino to browse and manage form submissions across multiple form schemas in a single list.
+description: Use the Aggregation view in Dino to browse, filter, and manage form submissions from all your form schemas in a single, unified list.
 ---
 
 # Aggregation
@@ -47,6 +47,8 @@ When you hover over a row, a set of action icons appears on the right. The actio
 ## Creating a New Submission
 
 You can start a new form submission directly from the Aggregation page.
+
+![Aggregation](../imgs/aggregation/index-fab.png)
 
 1.  Click the **+** (Add) button in the bottom-right corner of the screen.
 2.  A dialog opens, showing a list of form schemas you have permission to create submissions for.

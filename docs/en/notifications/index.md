@@ -68,3 +68,6 @@ You can change which columns are visible in the list.
 2. A panel will open showing all available columns.
 3. Toggle the columns you want to show or hide.
 4. Close the panel when done — your selection is applied immediately.
+
+!!! tip "Marking as Read"
+    When you click a notification that has a link, it is automatically marked as read. Notifications without a link are not automatically marked as read when you expand them.

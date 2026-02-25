@@ -30,7 +30,7 @@ At the top of the editor, fill in the following fields before designing the form
 - **Icon Identifier** — type to search for and select the icon that represents this form.
 - **Form Statuses** — select one or more workflow statuses that entries created with this schema can move through. You can also create new statuses or edit existing ones inline: click the **edit** icon next to a status, or select **Create new Status** at the bottom of the dropdown.
 - **Form Metrics** — select the metric types (such as project, location, or organisation) that entries created with this schema will be linked to.
-- **Visibility** — set to *Private* (accessible only to authorised users) or *Public* (shareable via a public link).
+- **Visibility** — set to *Private* (accessible only to authorized users) or *Public* (shareable via a public link).
 - **Metrics Set Behavior** — *Default* allows multiple entries with the same metric combination; *Unique* prevents duplicate metric sets for this form.
 - **Generate Report** — if set to *Yes*, an automatic report will be generated and linked to this schema when it is saved. This option is only shown if no auto-report already exists for the schema.
 
@@ -43,7 +43,7 @@ The lower section of the page contains the form builder, where you can add, arra
 Use the form builder controls to:
 
 - Add new fields (text, number, date, file, choice, and more)
-- Organise fields into pages or sections
+- Organize fields into pages or sections
 - Set field labels, hints, and validation rules
 
 The **Save** button remains disabled if the form builder reports any validation errors. Resolve all errors before attempting to save.

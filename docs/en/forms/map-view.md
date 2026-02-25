@@ -29,7 +29,7 @@ A filter panel on the left side allows you to narrow down which submissions are 
     *   Use the **Date range** picker to select a start ("From date") and end ("To date"). Only submissions created within this period will be displayed.
 
 2.  **Filter by Form Data**:
-    *   Additional filter fields (like Area, Case, Organization, or Project) appear based on the form's schema and the data collected.
+    *   Additional filter fields (like Point of Care, Nationality, Gender, Age, Project, or Location) appear based on the form's schema and the data collected.
     *   Click into a filter field to see an autocomplete list of all values that exist for that field in your data.
     *   Start typing to narrow the list, or select a specific value from the dropdown.
 

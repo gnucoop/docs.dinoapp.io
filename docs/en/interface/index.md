@@ -7,7 +7,7 @@ description: An overview of the Dino application shell — the toolbar, side nav
 
 The Dino interface consists of a top toolbar and a side navigation menu that are present on every page after you log in.
 
-![Dino interface overview — toolbar and collapsed side navigation](../imgs/interface/img1.jpg)
+![Main](../imgs/interface/index.png)
 
 ---
 
@@ -35,13 +35,9 @@ The side menu lets you move between the main areas of the application.
 
 On large screens the menu is always visible on the left. On smaller screens it collapses and can be opened with the **menu button** (hamburger icon) in the top toolbar. On either screen size, click the menu button to expand the menu labels or collapse them to icons only.
 
-![Side navigation expanded with section labels](../imgs/interface/img2.jpg)
-
 ---
 
 ## Top Toolbar
-
-![Top toolbar controls](../imgs/interface/img3.jpg)
 
 The toolbar at the top of the screen contains the following controls, from left to right:
 
@@ -82,28 +78,26 @@ When a sync completes, a notification appears briefly at the bottom of the scree
 
 ## Notifications
 
-![Notifications dropdown open](../imgs/interface/img4.jpg)
-
 Click the **bell icon** in the toolbar to open the notifications dropdown. The badge on the bell shows the number of unread messages.
+
+![Main](../imgs/interface/index-notifications.png)
 
 From the dropdown you can:
 
-- **Click a notification** to mark it as read.
-- **Click the arrow button** on a notification (if present) to navigate directly to the relevant area of the application.
-- **Mark all as read** — marks all current notifications as read.
-- **View all notifications** — navigates to the full [Notifications](../notifications/index.md) page.
+1.  **Click a notification** to mark it as read.
+2.  **Click the arrow button** on a notification (if present) to navigate directly to the relevant area of the application.
+3.  **Mark all as read** — marks all current notifications as read.
+4.  **View all notifications** — navigates to the full [Notifications](../notifications/index.md) page.
 
 ---
 
 ## User Area
 
-![User Area dialog](../imgs/interface/img5.jpg)
+Click the **settings icon**, your **user name**, or the **DINO-AI Credits counter** to open the User Area dialog. It shows your full name and email address at the top.
 
-Click the **settings icon**, your **user name**, or the **DINO-AI Credits counter** to open the User Area dialog. It shows your full name and email address at the top, and contains the following sections:
+![Main](../imgs/interface/index-user-area.png)
 
 ### Change Password
-
-![Change Password panel](../imgs/interface/img6.jpg)
 
 Enter your **Current Password**, a **New Password**, and **Confirm New Password**, then click the arrow button to save. An error message will appear if the current password is incorrect or if the new passwords do not match.
 
@@ -115,11 +109,10 @@ View or set your **DINO-AI API Key**. Once a valid key is stored it is shown in 
 
 Shows your current **DINO-AI credit balance**. If a payment integration is configured, an **Add more** button is available to purchase additional credits.
 
-*(This section is only visible when a DINO-AI API key has been configured.)*
+!!! tip "Visibility"
+    This section is only visible when a DINO-AI API key has been configured.
 
 ### DINO Theme
-
-![DINO Theme colour customisation panel](../imgs/interface/img7.jpg)
 
 Customise the application colour scheme:
 
@@ -133,7 +126,8 @@ On mobile, a **dark / light mode toggle** also appears here.
 
 Click **Start Dino Tour** to restart the guided tour of the application from the beginning.
 
-*(This section is only shown if the guided tour is configured in your installation.)*
+!!! tip "Availability"
+    This section is only shown if the guided tour is configured in your installation.
 
 ### Backup and Restore
 

@@ -7,7 +7,7 @@ description: How to set a new password after requesting a reset link from the Lo
 
 The Reset Password page lets you choose a new password after requesting a reset link. You arrive here by clicking the link sent to your email address — the same link you requested from the **"Forgot your password?"** option on the Login page.
 
-![Resetting Your Password](../imgs/getting-started/reset-password.png)
+![Reset Password](../imgs/getting-started/reset-password.png)
 
 !!! note
     If you have not yet requested a reset link, go to the [Login page](login.md) first and click **"Forgot your password?"**.

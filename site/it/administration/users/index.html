@@ -1,0 +1,1946 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Come creare, modificare e gestire account utente e gruppi di autorizzazioni in Dino.">
+      
+      
+      
+        <link rel="canonical" href="https://gnucoop.github.io/docs.dinoapp.io/it/administration/users/">
+      
+      
+        <link rel="prev" href="../../public-forms/">
+      
+      
+        <link rel="next" href="../languages/">
+      
+      
+        
+          <link rel="alternate" href="/docs.dinoapp.io/en/" hreflang="en">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/it/" hreflang="it">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/es/" hreflang="es">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/fr/" hreflang="fr">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/pt/" hreflang="pt">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/uk/" hreflang="uk">
+        
+          <link rel="alternate" href="/docs.dinoapp.io/ar/" hreflang="ar">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>Gestione Utenti e Gruppi - Documentazione Dinoapp</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gestione-utenti-e-gruppi" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="../.." title="Documentazione Dinoapp" class="md-header__button md-logo" aria-label="Documentazione Dinoapp" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentazione Dinoapp
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gestione Utenti e Gruppi
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleziona la lingua">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/it/" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/es/" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/fr/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/pt/" hreflang="pt" class="md-select__link">
+              Português
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/uk/" hreflang="uk" class="md-select__link">
+              Українська
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/docs.dinoapp.io/ar/" hreflang="ar" class="md-select__link">
+              العربية
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Documentazione Dinoapp" class="md-nav__button md-logo" aria-label="Documentazione Dinoapp" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Documentazione Dinoapp
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Per Iniziare
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Per Iniziare
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accesso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/reset-password/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reimpostare la Password
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../interface/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interfaccia e Navigazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dashboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Moduli
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Moduli
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panoramica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/filling-in-a-form/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compilare un Modulo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/viewing-submissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visualizzare e Gestire le Risposte
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/map-view/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Esplorare i Dati sulla Mappa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/data-chat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chattare con i Tuoi Dati (AI)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../forms/managing-templates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire gli Schemi dei Moduli
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Report
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Report
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panoramica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/creating-a-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creare un Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/viewing-reports/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visualizzare e Gestire i Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reports/managing-templates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire gli Schemi dei Report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aggregation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregazione
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metriche
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Metriche
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Panoramica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metrics/managing-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire le Metriche
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DinoGPT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../notifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notifiche
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../public-forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Moduli Pubblici
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Amministrazione
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Amministrazione
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire Utenti e Gruppi
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire Utenti e Gruppi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#navigare-nellarea-utenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navigare nell'Area Utenti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Utenti
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Utenti">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#esplorare-lelenco-utenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Esplorare l'Elenco Utenti
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ricerca-e-filtri" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ricerca e Filtri
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abilitare-o-disabilitare-un-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abilitare o Disabilitare un Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-nuovo-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aggiungere un Nuovo Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificare-un-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificare un Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualizzare-un-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualizzare un Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eliminare-un-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eliminare un Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gruppi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gruppi
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gruppi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#esplorare-lelenco-gruppi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Esplorare l'Elenco Gruppi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ricerca-e-filtri_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ricerca e Filtri
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-nuovo-gruppo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aggiungere un Nuovo Gruppo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificare-un-gruppo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificare un Gruppo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualizzare-un-gruppo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualizzare un Gruppo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eliminare-un-gruppo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eliminare un Gruppo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risoluzione-dei-problemi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risoluzione dei Problemi
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Risoluzione dei Problemi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#non-e-possibile-creare-nuovi-account-utente-mentre-si-e-offline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Non è possibile creare nuovi account utente mentre si è offline."
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ops-si-e-verificato-un-errore-durante-il-salvataggio-dellutente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Ops! Si è verificato un errore durante il salvataggio dell'Utente."
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ops-si-e-verificato-un-errore-durante-lesecuzione-dellazione-richiesta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Ops! Si è verificato un errore durante l'esecuzione dell'azione richiesta."
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gestire le Lingue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../checkout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Checkout
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#navigare-nellarea-utenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navigare nell'Area Utenti
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Utenti
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Utenti">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#esplorare-lelenco-utenti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Esplorare l'Elenco Utenti
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ricerca-e-filtri" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ricerca e Filtri
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abilitare-o-disabilitare-un-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abilitare o Disabilitare un Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-nuovo-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aggiungere un Nuovo Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificare-un-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificare un Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualizzare-un-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualizzare un Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eliminare-un-utente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eliminare un Utente
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gruppi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gruppi
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gruppi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#esplorare-lelenco-gruppi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Esplorare l'Elenco Gruppi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ricerca-e-filtri_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ricerca e Filtri
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggiungere-un-nuovo-gruppo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aggiungere un Nuovo Gruppo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modificare-un-gruppo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modificare un Gruppo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualizzare-un-gruppo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualizzare un Gruppo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eliminare-un-gruppo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eliminare un Gruppo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risoluzione-dei-problemi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risoluzione dei Problemi
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Risoluzione dei Problemi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#non-e-possibile-creare-nuovi-account-utente-mentre-si-e-offline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Non è possibile creare nuovi account utente mentre si è offline."
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ops-si-e-verificato-un-errore-durante-il-salvataggio-dellutente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Ops! Si è verificato un errore durante il salvataggio dell'Utente."
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ops-si-e-verificato-un-errore-durante-lesecuzione-dellazione-richiesta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Ops! Si è verificato un errore durante l'esecuzione dell'azione richiesta."
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="gestione-utenti-e-gruppi">Gestione Utenti e Gruppi</h1>
+<p>L'area Utenti consente agli amministratori di gestire chi può accedere a Dino e cosa è autorizzato a fare. È divisa in due sezioni: <strong>Utenti</strong>, per gli account individuali, e <strong>Gruppi</strong>, per insiemi di autorizzazioni che possono essere assegnati a più utenti contemporaneamente.</p>
+<p><img alt="Gestione Utenti e Gruppi" src="../../imgs/administration/users.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Solo accesso amministratore</p>
+<p>Questa area è visibile solo agli utenti con il ruolo di Amministratore. Se non la vedi nella navigazione, contatta il tuo amministratore di sistema.</p>
+</div>
+<hr />
+<h2 id="navigare-nellarea-utenti">Navigare nell'Area Utenti</h2>
+<p>Quando apri l'area Utenti, vedrai un menu con due opzioni:</p>
+<ul>
+<li><strong>Utenti</strong> — gestisci account utente individuali.</li>
+<li><strong>Gruppi</strong> — gestisci gruppi di autorizzazioni.</li>
+</ul>
+<p>Clicca su una delle opzioni per aprire la sezione corrispondente.</p>
+<hr />
+<h2 id="utenti">Utenti</h2>
+<h3 id="esplorare-lelenco-utenti">Esplorare l'Elenco Utenti</h3>
+<p>L'elenco Utenti mostra tutti gli account nel sistema, visualizzando per ciascun utente l'<strong>indirizzo email</strong>, il <strong>nome completo</strong> e un interruttore <strong>Disabilitato</strong> che indica se l'account è attualmente attivo.</p>
+<p>Il numero totale di utenti corrispondenti ai filtri attuali è mostrato in cima all'elenco.</p>
+<h3 id="ricerca-e-filtri">Ricerca e Filtri</h3>
+<ul>
+<li>Digita nel campo <strong>ricerca per parole chiave</strong> per filtrare gli utenti in base a qualsiasi testo nei loro dettagli.</li>
+<li>Usa i campi <strong>Data da</strong> e <strong>Data a</strong> per filtrare in base alla data di creazione dell'account.</li>
+<li>Usa il filtro <strong>Gruppi Utenti</strong> per mostrare solo gli utenti che appartengono a un gruppo di autorizzazioni specifico.</li>
+<li>Cancella qualsiasi filtro cliccando sull'icona <strong>×</strong> all'interno del campo.</li>
+</ul>
+<h3 id="abilitare-o-disabilitare-un-utente">Abilitare o Disabilitare un Utente</h3>
+<p>Ogni riga contiene un interruttore nella colonna <strong>Disabilitato</strong>. Clicca direttamente sull'interruttore nell'elenco per abilitare o disabilitare un account utente senza aprire l'editor.</p>
+<h3 id="aggiungere-un-nuovo-utente">Aggiungere un Nuovo Utente</h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La creazione di nuovi account richiede una connessione internet attiva. Se sei offline, il pulsante di aggiunta mostrerà un'icona di connettività e l'azione non sarà disponibile.</p>
+</div>
+<ol>
+<li>Clicca sul <strong>pulsante +</strong> (pulsante fluttuante in basso a destra della pagina).</li>
+<li>Si aprirà una finestra di dialogo. Compila i seguenti campi:<ul>
+<li><strong>Nome Completo</strong> — obbligatorio.</li>
+<li><strong>Email</strong> — obbligatorio.</li>
+<li><strong>Password</strong> e <strong>Conferma Password</strong> — obbligatori in alcune installazioni (almeno 9 caratteri).</li>
+<li><strong>Gruppi di Autorizzazioni Utente</strong> — seleziona uno o più gruppi dal menu a discesa per controllare a cosa può accedere questo utente.</li>
+</ul>
+</li>
+<li>Clicca su <strong>Salva</strong> per creare l'account.</li>
+</ol>
+<p>Un messaggio di conferma apparirà in fondo allo schermo quando l'utente è stato salvato con successo.</p>
+<h3 id="modificare-un-utente">Modificare un Utente</h3>
+<ol>
+<li>Trova l'utente nell'elenco e clicca sull'<strong>icona della matita</strong> sulla sua riga.</li>
+<li>La finestra di dialogo dell'editor si aprirà in modalità modifica. Puoi aggiornare il <strong>Nome Completo</strong> e i <strong>Gruppi di Autorizzazioni Utente</strong>.</li>
+<li>Clicca su <strong>Salva</strong> per applicare le modifiche, o su <strong>Chiudi</strong> per annullarle.</li>
+</ol>
+<h3 id="visualizzare-un-utente">Visualizzare un Utente</h3>
+<p>Clicca sull'<strong>icona dell'occhio</strong> sulla riga di un utente per aprire i suoi dettagli in modalità di sola lettura. In questa modalità non è possibile apportare modifiche. Clicca su <strong>Chiudi</strong> quando hai finito.</p>
+<h3 id="eliminare-un-utente">Eliminare un Utente</h3>
+<ol>
+<li>Clicca sull'<strong>icona del cestino</strong> sulla riga dell'utente.</li>
+<li>Apparirà una richiesta di conferma. Conferma per eliminare definitivamente l'account.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>L'eliminazione di un account utente è permanente e non può essere annullata.</p>
+</div>
+<hr />
+<h2 id="gruppi">Gruppi</h2>
+<p>I gruppi di autorizzazioni definiscono quali aree, moduli, report e dati un insieme di utenti può accedere. Assegnare un utente a un gruppo gli concede tutte le autorizzazioni definite per quel gruppo.</p>
+<h3 id="esplorare-lelenco-gruppi">Esplorare l'Elenco Gruppi</h3>
+<p>L'elenco Gruppi mostra tutti i gruppi di autorizzazioni per nome. Il conteggio totale è mostrato in cima alla pagina.</p>
+<h3 id="ricerca-e-filtri_1">Ricerca e Filtri</h3>
+<ul>
+<li>Usa il campo <strong>ricerca per parole chiave</strong> per filtrare i gruppi per nome.</li>
+<li>Usa i campi <strong>Data da</strong> e <strong>Data a</strong> per filtrare in base alla data di creazione.</li>
+<li>Usa i filtri metrici (<strong>Progetto</strong>, <strong>Luogo</strong>, <strong>Area Tematica</strong>, <strong>Caso</strong>, <strong>Organizzazione</strong>) per trovare gruppi associati a specifici ambiti di dati.</li>
+<li>Cancella qualsiasi filtro cliccando sull'icona <strong>×</strong> all'interno del campo.</li>
+</ul>
+<h3 id="aggiungere-un-nuovo-gruppo">Aggiungere un Nuovo Gruppo</h3>
+<ol>
+<li>Clicca sul <strong>pulsante +</strong> (pulsante fluttuante in basso a destra della pagina).</li>
+<li>Si aprirà una finestra di dialogo che mostra un elenco categorizzato degli elementi disponibili da assegnare al gruppo. Gli elementi sono raggruppati in categorie come <strong>Ruoli</strong>, <strong>Schemi Modulo</strong>, <strong>Stati Modulo</strong>, <strong>Schemi Report</strong> e qualsiasi tipo di metrica attiva.</li>
+<li>Inserisci un <strong>nome gruppo</strong> nel campo nome in cima alla finestra di dialogo.</li>
+<li>Seleziona gli elementi che desideri includere nel gruppo cliccandoci sopra. Almeno un <strong>Ruolo</strong> deve essere selezionato prima di poter salvare.</li>
+<li>Clicca su <strong>Salva</strong> per creare il gruppo.</li>
+</ol>
+<p>Apparirà un messaggio di conferma con il nome del gruppo quando è stato salvato.</p>
+<h3 id="modificare-un-gruppo">Modificare un Gruppo</h3>
+<ol>
+<li>Clicca sull'<strong>icona della matita</strong> sulla riga di un gruppo.</li>
+<li>La finestra di dialogo dell'editor si aprirà con la configurazione attuale del gruppo precaricata.</li>
+<li>Aggiorna il nome o aggiungi e rimuovi elementi secondo necessità. Almeno un Ruolo deve rimanere selezionato.</li>
+<li>Clicca su <strong>Salva</strong> per applicare le modifiche.</li>
+</ol>
+<h3 id="visualizzare-un-gruppo">Visualizzare un Gruppo</h3>
+<p>Clicca sull'<strong>icona dell'occhio</strong> sulla riga di un gruppo per aprire la sua configurazione in modalità di sola lettura. Clicca su <strong>Chiudi</strong> quando hai finito.</p>
+<h3 id="eliminare-un-gruppo">Eliminare un Gruppo</h3>
+<ol>
+<li>Clicca sull'<strong>icona del cestino</strong> sulla riga del gruppo.</li>
+<li>Apparirà una richiesta di conferma. Conferma per eliminare definitivamente il gruppo.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>L'eliminazione di un gruppo è permanente. Gli utenti che erano assegnati solo a quel gruppo perderanno immediatamente le autorizzazioni associate.</p>
+</div>
+<hr />
+<h2 id="risoluzione-dei-problemi">Risoluzione dei Problemi</h2>
+<h3 id="non-e-possibile-creare-nuovi-account-utente-mentre-si-e-offline">"Non è possibile creare nuovi account utente mentre si è offline."</h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Il tuo dispositivo non è connesso a internet. I nuovi account utente possono essere creati solo quando si è online. Controlla la tua connessione e riprova. La modifica e la visualizzazione degli utenti esistenti rimangono disponibili anche offline.</p>
+</div>
+<h3 id="ops-si-e-verificato-un-errore-durante-il-salvataggio-dellutente">"Ops! Si è verificato un errore durante il salvataggio dell'Utente."</h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>L'utente non è stato salvato, probabilmente a causa di un errore di validazione o di un problema temporaneo del server. Verifica che tutti i campi obbligatori siano compilati correttamente e riprova. Se il problema persiste, contatta il tuo amministratore di sistema.</p>
+</div>
+<h3 id="ops-si-e-verificato-un-errore-durante-lesecuzione-dellazione-richiesta">"Ops! Si è verificato un errore durante l'esecuzione dell'azione richiesta."</h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Questo messaggio può apparire durante il salvataggio o l'eliminazione di un gruppo. Potrebbe indicare un problema lato server o un conflitto con dati esistenti. Riprova dopo un momento. Se il problema continua, contatta il tuo amministratore di sistema.</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

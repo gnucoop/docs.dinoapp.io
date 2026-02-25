@@ -5,9 +5,9 @@ description: How to sign in to Dino, reset your password, create an account, and
 
 # Logging In to Dino
 
-The Login page is the starting point of your Dino experience. From here you can sign in to your account, create a new account, or recover access if you have forgotten your password. Depending on how your organisation has set up Dino, some of the options described below may not be visible in your installation.
+The Login page is the starting point for accessing Dino. From here you can sign in to your account, create a new account, or recover access if you have forgotten your password. Depending on how your organization has set up Dino, some of the options described below may not be visible.
 
-![Logging In](../imgs/getting-started/login.png)
+![Login](../imgs/getting-started/login.png)
 
 ---
 
@@ -65,14 +65,14 @@ If you already have an account, click **"Already have an account? Login"** to re
 
 ## Signing In with an External Account
 
-Your organisation may allow you to sign in using your existing Microsoft or Google account, instead of a separate Dino password.
+Your organization may allow you to sign in using your existing Microsoft or Google account, instead of a separate Dino password.
 
 !!! note "Optional feature"
     This option may not be available in your installation. The buttons will only appear if your administrator has enabled external login.
 
 1.  On the Login page, click **"Login with Microsoft"** or **"Login with Google"**, depending on which account you want to use.
 2.  You will be redirected to Microsoft or Google to confirm your identity.
-3.  After authorising access, you will be brought back to Dino and signed in automatically.
+3.  After authorizing access, you will be brought back to Dino and signed in automatically.
 
 ---
 
@@ -103,7 +103,7 @@ If a **"Choose your platform"** dropdown is visible, select the platform you wan
 ### "There was a problem during syncing process."
 
 !!! warning
-    An error occurred while synchronising your data, which may be related to a recent form import. Review any forms you were importing for potential issues, then sign in again. If the problem persists, contact your administrator.
+    An error occurred while synchronizing your data, which may be related to a recent form import. Review any forms you were importing for potential issues, then sign in again. If the problem persists, contact your administrator.
 
 ### "Loading external authentication…" with no redirect
 

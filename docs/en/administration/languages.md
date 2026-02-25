@@ -7,7 +7,7 @@ description: How to manage application translations, including adding languages,
 
 The **Languages** page allows administrators to manage all the translated text used throughout Dino. From here, you can browse, edit, and add translations, manage which languages are available, and export translation files for backup or editing.
 
-![Managing Languages](../imgs/administration/languages.png)
+![Languages](../imgs/administration/languages.png)
 
 !!! warning "Administrator access only"
     This area is only visible to users with the Administrator role. If you cannot see it in the navigation, contact your system administrator.
@@ -62,6 +62,8 @@ Use this to add a new language, update an existing language's translations, or r
 
 1. Click the **Language** button in the toolbar.
 2. The **Language Settings** dialog will open. It shows a list of available languages and provides the following actions:
+
+![Languages](../imgs/administration/languages-toggle.png)
 
 ### Adding a New Language
 

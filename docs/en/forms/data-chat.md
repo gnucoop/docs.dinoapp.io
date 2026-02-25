@@ -1,11 +1,11 @@
 ---
 title: Chatting with Your Data (AI)
-description: How to use the AI Data Chat feature to ask natural language questions about your form submissions.
+description: Use the AI Data Chat feature to ask natural language questions about your form submissions and get answers in text, tables, or charts.
 ---
 
 # Chatting with Your Data (AI)
 
-The Data Chat page lets you ask plain-language questions about the submissions collected for a form. The AI assistant analyses the data and returns answers in text, tables, or charts.
+The Data Chat page lets you ask plain-language questions about the submissions collected for a form. The AI assistant, called DinoGPT, analyzes the data and returns answers in text, tables, or charts.
 
 ![Chatting with Your Data (AI)](../imgs/forms/data-chat.png)
 
